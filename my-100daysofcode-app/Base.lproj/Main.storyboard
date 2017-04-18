@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,9 +27,89 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWc-kT-dWB" userLabel="ContainerView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAL-ls-agU" userLabel="TitleView">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="my 100 days of code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gp0-YH-9xb">
+                                                        <rect key="frame" x="8" y="20" width="350" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="RXB-Jl-boD"/>
+                                                            <constraint firstAttribute="width" constant="350" id="zuv-oW-hCF"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="32"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04th January - 28th April  2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPU-xQ-WMl">
+                                                        <rect key="frame" x="8" y="82" width="241.5" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.12343573569999999" green="0.54234087470000003" blue="0.4392843246" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="uPU-xQ-WMl" firstAttribute="top" secondItem="Gp0-YH-9xb" secondAttribute="bottom" constant="12" id="0e4-gJ-yFo"/>
+                                                    <constraint firstAttribute="height" constant="150" id="CKL-kl-YLO"/>
+                                                    <constraint firstItem="Gp0-YH-9xb" firstAttribute="top" secondItem="UAL-ls-agU" secondAttribute="top" constant="20" id="MFe-r2-1EY"/>
+                                                    <constraint firstItem="uPU-xQ-WMl" firstAttribute="leading" secondItem="UAL-ls-agU" secondAttribute="leading" constant="8" id="NEa-cx-zkf"/>
+                                                    <constraint firstItem="Gp0-YH-9xb" firstAttribute="leading" secondItem="UAL-ls-agU" secondAttribute="leading" constant="8" id="YVq-Ji-Bpi"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NN3-SM-36w" userLabel="QuestionView">
+                                                <rect key="frame" x="0.0" y="150" width="187.5" height="150"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRv-k6-mtD">
+                                                        <rect key="frame" x="8" y="8" width="171.5" height="134"/>
+                                                        <string key="text">With the start of the year 2017, I’ve decided to join the #100DaysOfCode Challenge. 
+But what does this mean?</string>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.74446094039999999" green="0.86367416379999995" blue="0.2233695537" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="tRv-k6-mtD" firstAttribute="leading" secondItem="NN3-SM-36w" secondAttribute="leading" constant="8" id="6Wf-0a-HEh"/>
+                                                    <constraint firstAttribute="bottom" secondItem="tRv-k6-mtD" secondAttribute="bottom" constant="8" id="8f0-xN-GLC"/>
+                                                    <constraint firstAttribute="trailing" secondItem="tRv-k6-mtD" secondAttribute="trailing" constant="8" id="8gO-Us-kbc"/>
+                                                    <constraint firstItem="tRv-k6-mtD" firstAttribute="top" secondItem="NN3-SM-36w" secondAttribute="top" constant="8" id="clJ-YT-Vm4"/>
+                                                    <constraint firstAttribute="height" constant="150" id="pXg-im-twl"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NId-Rm-HVb">
+                                                <rect key="frame" x="187.5" y="150" width="187.5" height="150"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="//" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEv-Ni-yHC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="188" height="150"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="124"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="tEv-Ni-yHC" firstAttribute="leading" secondItem="NId-Rm-HVb" secondAttribute="leading" id="74M-TO-Ene"/>
+                                                    <constraint firstAttribute="trailing" secondItem="tEv-Ni-yHC" secondAttribute="trailing" id="KDL-aV-C9R"/>
+                                                    <constraint firstItem="tEv-Ni-yHC" firstAttribute="top" secondItem="NId-Rm-HVb" secondAttribute="top" id="T0S-Ia-xRv"/>
+                                                    <constraint firstAttribute="bottom" secondItem="tEv-Ni-yHC" secondAttribute="bottom" id="lSx-iJ-4YR"/>
+                                                    <constraint firstAttribute="height" constant="150" id="xE8-bb-eDO"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstItem="NN3-SM-36w" firstAttribute="top" secondItem="UAL-ls-agU" secondAttribute="bottom" id="9Ai-lZ-4eL"/>
+                                            <constraint firstItem="NId-Rm-HVb" firstAttribute="top" secondItem="UAL-ls-agU" secondAttribute="bottom" id="DAt-eW-leV"/>
+                                            <constraint firstAttribute="trailing" secondItem="UAL-ls-agU" secondAttribute="trailing" id="HoY-Ig-XJP"/>
                                             <constraint firstAttribute="height" constant="1000" id="ID4-1x-2mE"/>
+                                            <constraint firstAttribute="trailing" secondItem="NId-Rm-HVb" secondAttribute="trailing" id="NhS-op-viE"/>
+                                            <constraint firstItem="NId-Rm-HVb" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="Pxe-uI-Agv"/>
+                                            <constraint firstItem="UAL-ls-agU" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="TSy-c9-y7o"/>
+                                            <constraint firstItem="NN3-SM-36w" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="alc-eI-AXI"/>
+                                            <constraint firstItem="NN3-SM-36w" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="eW3-Ba-bbL"/>
+                                            <constraint firstItem="UAL-ls-agU" firstAttribute="top" secondItem="HWc-kT-dWB" secondAttribute="top" id="xLi-0r-fi9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -54,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+            <point key="canvasLocation" x="32.799999999999997" y="36.881559220389811"/>
         </scene>
     </scenes>
 </document>
