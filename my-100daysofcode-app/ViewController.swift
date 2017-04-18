@@ -12,14 +12,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //test setup
+        view.backgroundColor = UIColor.yellow
+        
+        let label = UILabel()
+        label.frame = CGRect(x: 150, y: 150, width: 50, height: 50)
+        label.text = "Hello"
+        self.view.addSubview(label)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 
 }
 
