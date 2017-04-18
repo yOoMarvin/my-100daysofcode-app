@@ -9,8 +9,6 @@
 import UIKit
 
 class StartViewController: UIViewController {
-
-//    var titleLabel: UILabel!
     
     // Color properties
     let darkBlueColor = UIColor(red:0.00, green:0.26, blue:0.35, alpha:1.0)
@@ -23,14 +21,6 @@ class StartViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        view.backgroundColor = UIColor.white
-//        
-//        titleLabel = UILabel()
-//        titleLabel.frame = CGRect(x: 8, y: 24, width: self.view.frame.size.width , height: 60)
-//        titleLabel.text = "my 100 days of code"
-//        titleLabel.font = UIFont(name: "AvenirNext-Regular", size: 32)
-//        titleLabel.textColor = UIColor.black
-//        self.view.addSubview(titleLabel)
     }
 
     
