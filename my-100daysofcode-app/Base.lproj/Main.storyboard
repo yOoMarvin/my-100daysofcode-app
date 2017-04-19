@@ -198,6 +198,25 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                     <constraint firstAttribute="height" constant="300" id="fFf-Tq-uQM"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4R2-3b-Wti">
+                                                <rect key="frame" x="0.0" y="950" width="375" height="150"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="... and the results were amazing" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVW-qs-Wb2">
+                                                        <rect key="frame" x="8" y="0.0" width="359" height="150"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="32"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="mVW-qs-Wb2" secondAttribute="bottom" id="HkO-sX-3eg"/>
+                                                    <constraint firstItem="mVW-qs-Wb2" firstAttribute="leading" secondItem="4R2-3b-Wti" secondAttribute="leading" constant="8" id="R1D-9X-ENK"/>
+                                                    <constraint firstAttribute="trailing" secondItem="mVW-qs-Wb2" secondAttribute="trailing" constant="8" id="WvC-0g-Lc3"/>
+                                                    <constraint firstAttribute="height" constant="150" id="bUo-Dd-J6c"/>
+                                                    <constraint firstItem="mVW-qs-Wb2" firstAttribute="top" secondItem="4R2-3b-Wti" secondAttribute="top" id="rcA-DA-au4"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -210,12 +229,15 @@ So I sat down almost every day and coded some of these little projects…</strin
                                             <constraint firstItem="JbY-Zo-riP" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="HTf-LZ-FTM"/>
                                             <constraint firstAttribute="trailing" secondItem="UAL-ls-agU" secondAttribute="trailing" id="HoY-Ig-XJP"/>
                                             <constraint firstAttribute="height" constant="1500" id="ID4-1x-2mE"/>
+                                            <constraint firstAttribute="trailing" secondItem="4R2-3b-Wti" secondAttribute="trailing" id="Jyt-tP-MCA"/>
                                             <constraint firstItem="KxC-b9-Rvm" firstAttribute="top" secondItem="JbY-Zo-riP" secondAttribute="bottom" id="Me0-2o-g7v"/>
+                                            <constraint firstItem="4R2-3b-Wti" firstAttribute="top" secondItem="3HU-Pn-XWg" secondAttribute="bottom" id="NOe-RR-psj"/>
                                             <constraint firstAttribute="trailing" secondItem="NId-Rm-HVb" secondAttribute="trailing" id="NhS-op-viE"/>
                                             <constraint firstItem="NId-Rm-HVb" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="Pxe-uI-Agv"/>
                                             <constraint firstItem="UAL-ls-agU" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="TSy-c9-y7o"/>
                                             <constraint firstAttribute="trailing" secondItem="94s-ou-PYb" secondAttribute="trailing" id="WYf-wV-nK1"/>
                                             <constraint firstItem="KxC-b9-Rvm" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="XWn-Ba-wqb"/>
+                                            <constraint firstItem="4R2-3b-Wti" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="Xf1-gv-JXu"/>
                                             <constraint firstItem="WPV-GX-1Cw" firstAttribute="top" secondItem="NId-Rm-HVb" secondAttribute="bottom" id="YdL-Is-dht"/>
                                             <constraint firstAttribute="trailing" secondItem="WPV-GX-1Cw" secondAttribute="trailing" id="aUa-nT-r8Z"/>
                                             <constraint firstItem="NN3-SM-36w" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="alc-eI-AXI"/>
