@@ -118,7 +118,7 @@ for 100 days</string>
                                                     <constraint firstAttribute="trailing" secondItem="bVV-14-kLO" secondAttribute="trailing" constant="14" id="ld5-kQ-jjc"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="94s-ou-PYb">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="94s-ou-PYb" userLabel="MotivationView">
                                                 <rect key="frame" x="187.5" y="450" width="187.5" height="200"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Kv-q8-8jz">
@@ -138,7 +138,7 @@ for 100 days</string>
                                                     <constraint firstAttribute="trailing" secondItem="0Kv-q8-8jz" secondAttribute="trailing" constant="8" id="zSu-sZ-9IP"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JbY-Zo-riP">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JbY-Zo-riP" userLabel="DummyViewMid">
                                                 <rect key="frame" x="0.0" y="450" width="187.5" height="200"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="{" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYS-9m-wZA">
@@ -157,7 +157,7 @@ for 100 days</string>
                                                     <constraint firstItem="wYS-9m-wZA" firstAttribute="top" secondItem="JbY-Zo-riP" secondAttribute="top" id="qNF-54-6Im"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KxC-b9-Rvm">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KxC-b9-Rvm" userLabel="GoalView">
                                                 <rect key="frame" x="0.0" y="650" width="187.5" height="300"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciW-0N-bDw">
@@ -179,7 +179,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                     <constraint firstAttribute="trailing" secondItem="ciW-0N-bDw" secondAttribute="trailing" constant="8" id="vsJ-hu-TMe"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3HU-Pn-XWg">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3HU-Pn-XWg" userLabel="DummyViewButtom">
                                                 <rect key="frame" x="187.5" y="650" width="187.5" height="300"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="}" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3J-dG-j2m">
@@ -198,7 +198,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                     <constraint firstAttribute="height" constant="300" id="fFf-Tq-uQM"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4R2-3b-Wti">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4R2-3b-Wti" userLabel="ResultsView">
                                                 <rect key="frame" x="0.0" y="950" width="375" height="150"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="... and the results were amazing" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVW-qs-Wb2">
@@ -217,7 +217,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                     <constraint firstItem="mVW-qs-Wb2" firstAttribute="top" secondItem="4R2-3b-Wti" secondAttribute="top" id="rcA-DA-au4"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="deM-Ux-uHN">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="deM-Ux-uHN" userLabel="WebProjectsView">
                                                 <rect key="frame" x="0.0" y="1100" width="187.5" height="150"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPP-VE-k6o">
@@ -237,7 +237,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                     <constraint firstItem="SPP-VE-k6o" firstAttribute="leading" secondItem="deM-Ux-uHN" secondAttribute="leading" constant="8" id="aVp-UO-et3"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TMs-Jg-kdO">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TMs-Jg-kdO" userLabel="IOSProjectsView">
                                                 <rect key="frame" x="187.5" y="1100" width="187.5" height="150"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSp-4R-ETU">
@@ -257,7 +257,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                     <constraint firstAttribute="bottom" secondItem="zSp-4R-ETU" secondAttribute="bottom" constant="8" id="sIV-Gy-Ki8"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ibg-he-FnT">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ibg-he-FnT" userLabel="NameView">
                                                 <rect key="frame" x="0.0" y="1250" width="375" height="250"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="coded by" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfD-Iq-aVF">
