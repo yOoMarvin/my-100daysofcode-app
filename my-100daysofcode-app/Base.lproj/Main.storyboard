@@ -157,6 +157,47 @@ for 100 days</string>
                                                     <constraint firstItem="wYS-9m-wZA" firstAttribute="top" secondItem="JbY-Zo-riP" secondAttribute="top" id="qNF-54-6Im"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KxC-b9-Rvm">
+                                                <rect key="frame" x="0.0" y="650" width="187.5" height="300"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciW-0N-bDw">
+                                                        <rect key="frame" x="8" y="0.0" width="172" height="300"/>
+                                                        <string key="text">my main goal in that challenge was to overcome that feeling of fear when you want to start something. Don’t think about it, just do it. This is was what that challenge has tought me!
+
+So I sat down almost every day and coded some of these little projects…</string>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.74446094039999999" green="0.86367416379999995" blue="0.2233695537" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="ciW-0N-bDw" firstAttribute="leading" secondItem="KxC-b9-Rvm" secondAttribute="leading" constant="8" id="3J8-qt-ec5"/>
+                                                    <constraint firstItem="ciW-0N-bDw" firstAttribute="top" secondItem="KxC-b9-Rvm" secondAttribute="top" id="Bb6-gz-opg"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ciW-0N-bDw" secondAttribute="bottom" id="TWg-by-cOx"/>
+                                                    <constraint firstAttribute="height" constant="300" id="uS3-Js-SJA"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ciW-0N-bDw" secondAttribute="trailing" constant="8" id="vsJ-hu-TMe"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3HU-Pn-XWg">
+                                                <rect key="frame" x="187.5" y="650" width="187.5" height="300"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="}" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3J-dG-j2m">
+                                                        <rect key="frame" x="0.0" y="0.0" width="188" height="300"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="124"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="F3J-dG-j2m" firstAttribute="top" secondItem="3HU-Pn-XWg" secondAttribute="top" id="1Bk-9i-bPm"/>
+                                                    <constraint firstAttribute="trailing" secondItem="F3J-dG-j2m" secondAttribute="trailing" id="8m3-sZ-lmn"/>
+                                                    <constraint firstItem="F3J-dG-j2m" firstAttribute="leading" secondItem="3HU-Pn-XWg" secondAttribute="leading" id="F03-VO-a0L"/>
+                                                    <constraint firstAttribute="bottom" secondItem="F3J-dG-j2m" secondAttribute="bottom" id="KKM-HM-HWo"/>
+                                                    <constraint firstAttribute="height" constant="300" id="fFf-Tq-uQM"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -169,16 +210,22 @@ for 100 days</string>
                                             <constraint firstItem="JbY-Zo-riP" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="HTf-LZ-FTM"/>
                                             <constraint firstAttribute="trailing" secondItem="UAL-ls-agU" secondAttribute="trailing" id="HoY-Ig-XJP"/>
                                             <constraint firstAttribute="height" constant="1000" id="ID4-1x-2mE"/>
+                                            <constraint firstItem="KxC-b9-Rvm" firstAttribute="top" secondItem="JbY-Zo-riP" secondAttribute="bottom" id="Me0-2o-g7v"/>
                                             <constraint firstAttribute="trailing" secondItem="NId-Rm-HVb" secondAttribute="trailing" id="NhS-op-viE"/>
                                             <constraint firstItem="NId-Rm-HVb" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="Pxe-uI-Agv"/>
                                             <constraint firstItem="UAL-ls-agU" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="TSy-c9-y7o"/>
                                             <constraint firstAttribute="trailing" secondItem="94s-ou-PYb" secondAttribute="trailing" id="WYf-wV-nK1"/>
+                                            <constraint firstItem="KxC-b9-Rvm" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="XWn-Ba-wqb"/>
                                             <constraint firstItem="WPV-GX-1Cw" firstAttribute="top" secondItem="NId-Rm-HVb" secondAttribute="bottom" id="YdL-Is-dht"/>
                                             <constraint firstAttribute="trailing" secondItem="WPV-GX-1Cw" secondAttribute="trailing" id="aUa-nT-r8Z"/>
                                             <constraint firstItem="NN3-SM-36w" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="alc-eI-AXI"/>
                                             <constraint firstItem="NN3-SM-36w" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="eW3-Ba-bbL"/>
+                                            <constraint firstAttribute="trailing" secondItem="3HU-Pn-XWg" secondAttribute="trailing" id="fuc-bF-kni"/>
+                                            <constraint firstItem="KxC-b9-Rvm" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="hkW-2H-gmt"/>
+                                            <constraint firstItem="3HU-Pn-XWg" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="mDq-65-DMK"/>
                                             <constraint firstItem="94s-ou-PYb" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="owL-Bf-RrJ"/>
                                             <constraint firstItem="UAL-ls-agU" firstAttribute="top" secondItem="HWc-kT-dWB" secondAttribute="top" id="xLi-0r-fi9"/>
+                                            <constraint firstItem="3HU-Pn-XWg" firstAttribute="top" secondItem="94s-ou-PYb" secondAttribute="bottom" id="xvl-gp-7Jv"/>
                                         </constraints>
                                     </view>
                                 </subviews>
