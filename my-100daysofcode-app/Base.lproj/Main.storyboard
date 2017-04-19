@@ -97,16 +97,40 @@ But what does this mean?</string>
                                                     <constraint firstAttribute="height" constant="150" id="xE8-bb-eDO"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WPV-GX-1Cw">
+                                                <rect key="frame" x="0.0" y="300" width="375" height="150"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVV-14-kLO">
+                                                        <rect key="frame" x="14" y="42" width="347" height="66"/>
+                                                        <string key="text">code at least 1 hour per day…
+for 100 days</string>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="bVV-14-kLO" firstAttribute="top" secondItem="WPV-GX-1Cw" secondAttribute="top" constant="42" id="Aoe-3E-51c"/>
+                                                    <constraint firstAttribute="bottom" secondItem="bVV-14-kLO" secondAttribute="bottom" constant="42" id="PLY-Gc-I4Z"/>
+                                                    <constraint firstAttribute="height" constant="150" id="S6a-pV-PoR"/>
+                                                    <constraint firstItem="bVV-14-kLO" firstAttribute="leading" secondItem="WPV-GX-1Cw" secondAttribute="leading" constant="14" id="foS-ab-lCK"/>
+                                                    <constraint firstAttribute="trailing" secondItem="bVV-14-kLO" secondAttribute="trailing" constant="14" id="ld5-kQ-jjc"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="NN3-SM-36w" firstAttribute="top" secondItem="UAL-ls-agU" secondAttribute="bottom" id="9Ai-lZ-4eL"/>
+                                            <constraint firstItem="WPV-GX-1Cw" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="9SP-Dp-A6T"/>
                                             <constraint firstItem="NId-Rm-HVb" firstAttribute="top" secondItem="UAL-ls-agU" secondAttribute="bottom" id="DAt-eW-leV"/>
                                             <constraint firstAttribute="trailing" secondItem="UAL-ls-agU" secondAttribute="trailing" id="HoY-Ig-XJP"/>
                                             <constraint firstAttribute="height" constant="1000" id="ID4-1x-2mE"/>
                                             <constraint firstAttribute="trailing" secondItem="NId-Rm-HVb" secondAttribute="trailing" id="NhS-op-viE"/>
                                             <constraint firstItem="NId-Rm-HVb" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="Pxe-uI-Agv"/>
                                             <constraint firstItem="UAL-ls-agU" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="TSy-c9-y7o"/>
+                                            <constraint firstItem="WPV-GX-1Cw" firstAttribute="top" secondItem="NId-Rm-HVb" secondAttribute="bottom" id="YdL-Is-dht"/>
+                                            <constraint firstAttribute="trailing" secondItem="WPV-GX-1Cw" secondAttribute="trailing" id="aUa-nT-r8Z"/>
                                             <constraint firstItem="NN3-SM-36w" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="alc-eI-AXI"/>
                                             <constraint firstItem="NN3-SM-36w" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="eW3-Ba-bbL"/>
                                             <constraint firstItem="UAL-ls-agU" firstAttribute="top" secondItem="HWc-kT-dWB" secondAttribute="top" id="xLi-0r-fi9"/>
