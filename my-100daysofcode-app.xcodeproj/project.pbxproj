@@ -37,6 +37,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58658D531EA92C3700C776EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				589CABDB1EA6643E004F618A /* AppDelegate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		58658D541EA92C3E00C776EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				589CABE41EA6643E004F618A /* LaunchScreen.storyboard */,
+				589CABDF1EA6643E004F618A /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		58658D551EA92C4600C776EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				589CABDD1EA6643E004F618A /* StartViewController.swift */,
+				58DF99EC1EA7D97200D81D61 /* WebProjectsPageViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		58658D561EA92C4B00C776EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				589CABE71EA6643E004F618A /* Info.plist */,
+				589CABE21EA6643E004F618A /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		589CABCF1EA6643E004F618A = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +91,10 @@
 		589CABDA1EA6643E004F618A /* my-100daysofcode-app */ = {
 			isa = PBXGroup;
 			children = (
-				589CABDB1EA6643E004F618A /* AppDelegate.swift */,
-				589CABDD1EA6643E004F618A /* StartViewController.swift */,
-				589CABDF1EA6643E004F618A /* Main.storyboard */,
-				589CABE21EA6643E004F618A /* Assets.xcassets */,
-				589CABE41EA6643E004F618A /* LaunchScreen.storyboard */,
-				589CABE71EA6643E004F618A /* Info.plist */,
-				58DF99EC1EA7D97200D81D61 /* WebProjectsPageViewController.swift */,
+				58658D561EA92C4B00C776EB /* Resources */,
+				58658D551EA92C4600C776EB /* Controller */,
+				58658D541EA92C3E00C776EB /* View */,
+				58658D531EA92C3700C776EB /* Model */,
 			);
 			path = "my-100daysofcode-app";
 			sourceTree = "<group>";
