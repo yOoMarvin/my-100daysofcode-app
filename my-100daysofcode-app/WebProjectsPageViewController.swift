@@ -30,7 +30,9 @@ class WebProjectsPageViewController: UIPageViewController {
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [self.newColoredViewController(color: "Green"),
                 self.newColoredViewController(color: "Yellow"),
-                self.newColoredViewController(color: "Orange")]
+                self.newColoredViewController(color: "Orange"),
+                self.newColoredViewController(color: "Red"),
+                self.newColoredViewController(color: "Blue")]
     }()
     
     private func newColoredViewController(color: String) -> UIViewController {

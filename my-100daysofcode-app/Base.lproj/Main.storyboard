@@ -477,6 +477,78 @@ So I sat down almost every day and coded some of these little projects…</strin
             <point key="canvasLocation" x="4252" y="-338"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="ujt-u9-DaO">
+            <objects>
+                <viewController storyboardIdentifier="RedViewController" id="Jpy-Rw-BHE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia8-kX-rYO"/>
+                        <viewControllerLayoutGuide type="bottom" id="7dq-Im-vbC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zc9-pW-Zul">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Zz-yb-x79">
+                                <rect key="frame" x="0.0" y="20" width="375" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project 4: Bitcoin Price Checker" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJc-TG-EyR">
+                                        <rect key="frame" x="8" y="8" width="359" height="84"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="LTb-dL-ps1"/>
+                                    <constraint firstItem="cJc-TG-EyR" firstAttribute="top" secondItem="3Zz-yb-x79" secondAttribute="top" constant="8" id="akF-93-V0p"/>
+                                    <constraint firstAttribute="bottom" secondItem="cJc-TG-EyR" secondAttribute="bottom" constant="8" id="dRY-TZ-J45"/>
+                                    <constraint firstAttribute="trailing" secondItem="cJc-TG-EyR" secondAttribute="trailing" constant="8" id="jA7-8M-9cW"/>
+                                    <constraint firstItem="cJc-TG-EyR" firstAttribute="leading" secondItem="3Zz-yb-x79" secondAttribute="leading" constant="8" id="ssE-OD-QY8"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAe-Bo-YKx">
+                                <rect key="frame" x="24" y="136" width="327" height="229.5"/>
+                                <string key="text">Yes, the FreeCodeCamp stuff is nice, but it was time for something different! So I’ve decided to code a little bitcoin viewer where you can check the current prices. Used techniques were the magical 3 FrontEnd Techniques and D3 for the graph!</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3Zz-yb-x79" secondAttribute="trailing" id="1HJ-K7-RzX"/>
+                            <constraint firstItem="BAe-Bo-YKx" firstAttribute="leading" secondItem="Zc9-pW-Zul" secondAttribute="leadingMargin" constant="8" id="1iT-3f-d8x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BAe-Bo-YKx" secondAttribute="trailing" constant="8" id="AUf-Wj-y0n"/>
+                            <constraint firstItem="3Zz-yb-x79" firstAttribute="leading" secondItem="Zc9-pW-Zul" secondAttribute="leading" id="Ka3-w1-46B"/>
+                            <constraint firstItem="BAe-Bo-YKx" firstAttribute="top" secondItem="3Zz-yb-x79" secondAttribute="bottom" constant="16" id="RNH-1h-dAM"/>
+                            <constraint firstItem="3Zz-yb-x79" firstAttribute="top" secondItem="Ia8-kX-rYO" secondAttribute="bottom" id="pUD-dd-7Ad"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="naJ-WE-9Xe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4988" y="-340"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6F7-bX-HbB">
+            <objects>
+                <viewController storyboardIdentifier="BlueViewController" id="PRn-xD-JOy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3EO-dV-c3E"/>
+                        <viewControllerLayoutGuide type="bottom" id="nQz-eA-V9Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wiM-ev-FBu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85l-xn-eOf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5812" y="-340"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="rMo-wc-7vc">
             <objects>
                 <viewController storyboardIdentifier="GreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bed-S6-aP1" sceneMemberID="viewController">
