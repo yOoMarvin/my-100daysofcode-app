@@ -747,7 +747,7 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
         <!--Web Projects Page View Controller-->
         <scene sceneID="dbb-DH-hb6">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Tu4-tZ-1rT" customClass="WebProjectsPageViewController" customModule="my_100daysofcode_app" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Tu4-tZ-1rT" customClass="WebProjectsPageViewController" customModule="my_100daysofcode_app" customModuleProvider="target" sceneMemberID="viewController">
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </pageViewController>
