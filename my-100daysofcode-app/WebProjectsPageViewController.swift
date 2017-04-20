@@ -28,16 +28,16 @@ class WebProjectsPageViewController: UIPageViewController {
     
     
     private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [self.newColoredViewController(color: "Green"),
-                self.newColoredViewController(color: "Yellow"),
-                self.newColoredViewController(color: "Orange"),
-                self.newColoredViewController(color: "Red"),
-                self.newColoredViewController(color: "Blue")]
+        return [self.newProjectViewController(subname: "WebProjectOne"),
+                self.newProjectViewController(subname: "WebProjectTwo"),
+                self.newProjectViewController(subname: "WebProjectThree"),
+                self.newProjectViewController(subname: "WebProjectFour"),
+                self.newProjectViewController(subname: "WebProjectFive")]
     }()
     
-    private func newColoredViewController(color: String) -> UIViewController {
+    private func newProjectViewController(subname: String) -> UIViewController {
         return UIStoryboard(name: "Main", bundle: nil) .
-            instantiateViewController(withIdentifier: "\(color)ViewController")
+            instantiateViewController(withIdentifier: "\(subname)ViewController")
     }
 
 
