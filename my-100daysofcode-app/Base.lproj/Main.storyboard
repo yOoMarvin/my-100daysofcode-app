@@ -371,7 +371,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zj1-Py-JTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3201" y="-1246"/>
+            <point key="canvasLocation" x="3866" y="-1448"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rMo-wc-7vc">
@@ -384,17 +384,92 @@ So I sat down almost every day and coded some of these little projects…</strin
                     <view key="view" contentMode="scaleToFill" id="hm0-w9-ubX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.74446094039999999" green="0.86367416379999995" blue="0.2233695537" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EEi-dJ-4FI">
+                                <rect key="frame" x="0.0" y="20" width="375" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project 1: Quote Machine" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1km-cQ-RGR">
+                                        <rect key="frame" x="8" y="8" width="359" height="84"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0QE-OP-b38"/>
+                                    <constraint firstItem="1km-cQ-RGR" firstAttribute="top" secondItem="EEi-dJ-4FI" secondAttribute="top" constant="8" id="2qX-IN-OrS"/>
+                                    <constraint firstAttribute="trailing" secondItem="1km-cQ-RGR" secondAttribute="trailing" constant="8" id="DgB-8F-yLk"/>
+                                    <constraint firstAttribute="bottom" secondItem="1km-cQ-RGR" secondAttribute="bottom" constant="8" id="aCj-Ne-dLH"/>
+                                    <constraint firstItem="1km-cQ-RGR" firstAttribute="leading" secondItem="EEi-dJ-4FI" secondAttribute="leading" constant="8" id="vXf-bd-7SK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kZr-GZ-Fy1">
+                                <rect key="frame" x="0.0" y="120" width="187.5" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhs-Wb-eZ3">
+                                        <rect key="frame" x="8" y="0.0" width="171.5" height="200"/>
+                                        <string key="text">The first few days and week were dedicated to web development. Especially Front End Development. I’ve used a lot of the stuff of FreeCodeCamp and worked myself through the FrontEndProgram</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9911913872" green="0.45838895439999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="nhs-Wb-eZ3" secondAttribute="trailing" constant="8" id="0Au-en-yHD"/>
+                                    <constraint firstAttribute="bottom" secondItem="nhs-Wb-eZ3" secondAttribute="bottom" id="7Tu-ev-tiy"/>
+                                    <constraint firstAttribute="height" constant="200" id="9zs-qY-DGf"/>
+                                    <constraint firstItem="nhs-Wb-eZ3" firstAttribute="top" secondItem="kZr-GZ-Fy1" secondAttribute="top" id="VGs-M4-ocq"/>
+                                    <constraint firstItem="nhs-Wb-eZ3" firstAttribute="leading" secondItem="kZr-GZ-Fy1" secondAttribute="leading" constant="8" id="eF9-nl-Bc3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B80-xt-pRF">
+                                <rect key="frame" x="0.0" y="320" width="375" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vpk-ic-Vgi">
+                                        <rect key="frame" x="8" y="0.0" width="359" height="150"/>
+                                        <string key="text">The Quote Machine is one of the first projects in this program. Here I’ve worked myself through some basic API, FrontEnd and JavaScript stuff. Check out all my projects with links on my GitHub repo!</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Vpk-ic-Vgi" secondAttribute="bottom" id="84f-k0-KOn"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vpk-ic-Vgi" secondAttribute="trailing" constant="8" id="8G0-qM-c2p"/>
+                                    <constraint firstItem="Vpk-ic-Vgi" firstAttribute="leading" secondItem="B80-xt-pRF" secondAttribute="leading" constant="8" id="cEm-tw-sIY"/>
+                                    <constraint firstItem="Vpk-ic-Vgi" firstAttribute="top" secondItem="B80-xt-pRF" secondAttribute="top" id="jwR-VD-FWj"/>
+                                    <constraint firstAttribute="height" constant="150" id="zXx-no-UVi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kZr-GZ-Fy1" firstAttribute="leading" secondItem="hm0-w9-ubX" secondAttribute="leading" id="GxM-kv-MbA"/>
+                            <constraint firstAttribute="trailing" secondItem="EEi-dJ-4FI" secondAttribute="trailing" id="Hr0-Ac-0vu"/>
+                            <constraint firstItem="kZr-GZ-Fy1" firstAttribute="top" secondItem="EEi-dJ-4FI" secondAttribute="bottom" id="Jap-EB-djn"/>
+                            <constraint firstItem="EEi-dJ-4FI" firstAttribute="top" secondItem="wBh-7m-BEk" secondAttribute="bottom" id="Ptr-Am-hJv"/>
+                            <constraint firstAttribute="trailing" secondItem="B80-xt-pRF" secondAttribute="trailing" id="Qs8-2R-olX"/>
+                            <constraint firstItem="B80-xt-pRF" firstAttribute="leading" secondItem="hm0-w9-ubX" secondAttribute="leading" id="YHr-Dy-geN"/>
+                            <constraint firstItem="EEi-dJ-4FI" firstAttribute="leading" secondItem="hm0-w9-ubX" secondAttribute="leading" id="g6w-QJ-U5a"/>
+                            <constraint firstItem="B80-xt-pRF" firstAttribute="top" secondItem="kZr-GZ-Fy1" secondAttribute="bottom" id="jQV-ui-T9O"/>
+                            <constraint firstItem="kZr-GZ-Fy1" firstAttribute="width" secondItem="hm0-w9-ubX" secondAttribute="width" multiplier="1:2" id="tme-CA-838"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nj7-kd-b0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3231" y="-1970"/>
+            <point key="canvasLocation" x="2916" y="-1448.7256371814094"/>
         </scene>
         <!--Web Projects Page View Controller-->
         <scene sceneID="dbb-DH-hb6">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Tu4-tZ-1rT" customClass="WebProjectsPageViewController" customModule="my_100daysofcode_app" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Tu4-tZ-1rT" customClass="WebProjectsPageViewController" customModule="my_100daysofcode_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Bd-8l-AV0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2098" y="-1447"/>
