@@ -846,7 +846,56 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
                     <view key="view" contentMode="scaleToFill" id="U4a-fR-AZ0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6SZ-oQ-dvP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project 2: HexHex" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgx-1h-Aqc">
+                                        <rect key="frame" x="8" y="8" width="359" height="84"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="rgx-1h-Aqc" firstAttribute="leading" secondItem="6SZ-oQ-dvP" secondAttribute="leading" constant="8" id="Hao-cW-v2q"/>
+                                    <constraint firstAttribute="trailing" secondItem="rgx-1h-Aqc" secondAttribute="trailing" constant="8" id="MWG-Eg-uTd"/>
+                                    <constraint firstItem="rgx-1h-Aqc" firstAttribute="top" secondItem="6SZ-oQ-dvP" secondAttribute="top" constant="8" id="fHr-A9-pAD"/>
+                                    <constraint firstAttribute="bottom" secondItem="rgx-1h-Aqc" secondAttribute="bottom" constant="8" id="gG0-qG-lM3"/>
+                                    <constraint firstAttribute="height" constant="100" id="yML-R8-nTu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tEL-MG-MmR">
+                                <rect key="frame" x="0.0" y="100" width="375" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agi-59-SLr">
+                                        <rect key="frame" x="8" y="0.0" width="359" height="150"/>
+                                        <string key="text">If you are coming from web development there is one difference in coloring stuff in iOS, the UIColor. So I’ve decided to code a little color converter where you can convert color codes from hex to UIColor and back.</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="Agi-59-SLr" firstAttribute="top" secondItem="tEL-MG-MmR" secondAttribute="top" id="UMv-a6-zAy"/>
+                                    <constraint firstAttribute="height" constant="150" id="XNb-lO-GPw"/>
+                                    <constraint firstAttribute="trailing" secondItem="Agi-59-SLr" secondAttribute="trailing" constant="8" id="Zu5-wc-U5Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="Agi-59-SLr" secondAttribute="bottom" id="upb-GT-Er6"/>
+                                    <constraint firstItem="Agi-59-SLr" firstAttribute="leading" secondItem="tEL-MG-MmR" secondAttribute="leading" constant="8" id="w84-mM-8Pm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tEL-MG-MmR" secondAttribute="trailing" id="J4V-Qd-PTn"/>
+                            <constraint firstAttribute="trailing" secondItem="6SZ-oQ-dvP" secondAttribute="trailing" id="JqR-sz-ic0"/>
+                            <constraint firstItem="6SZ-oQ-dvP" firstAttribute="leading" secondItem="U4a-fR-AZ0" secondAttribute="leading" id="MTV-FG-GUg"/>
+                            <constraint firstItem="6SZ-oQ-dvP" firstAttribute="top" secondItem="U4a-fR-AZ0" secondAttribute="top" id="ltZ-d8-DrN"/>
+                            <constraint firstItem="tEL-MG-MmR" firstAttribute="top" secondItem="6SZ-oQ-dvP" secondAttribute="bottom" id="rNz-fD-SOq"/>
+                            <constraint firstItem="tEL-MG-MmR" firstAttribute="leading" secondItem="U4a-fR-AZ0" secondAttribute="leading" id="upg-Nb-FkX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GDe-Lu-0up" userLabel="First Responder" sceneMemberID="firstResponder"/>
