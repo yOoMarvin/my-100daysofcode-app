@@ -747,7 +747,7 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
         <!--View Controller-->
         <scene sceneID="h5b-X3-I2m">
             <objects>
-                <viewController id="jNs-t2-09F" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AppProjectOneViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jNs-t2-09F" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R97-VZ-Na5"/>
                         <viewControllerLayoutGuide type="bottom" id="HLO-SZ-19G"/>
@@ -838,7 +838,7 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
         <!--View Controller-->
         <scene sceneID="hiv-4j-Gcp">
             <objects>
-                <viewController id="F7z-Ig-fiT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AppProjectTwoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="F7z-Ig-fiT" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ppR-Qq-B21"/>
                         <viewControllerLayoutGuide type="bottom" id="mbE-4T-znb"/>
@@ -907,7 +907,7 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
         <!--View Controller-->
         <scene sceneID="U1r-4I-HD1">
             <objects>
-                <viewController id="FFY-qh-NpJ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AppProjectThreeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FFY-qh-NpJ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cBc-Yi-c3D"/>
                         <viewControllerLayoutGuide type="bottom" id="SZY-wx-E84"/>
