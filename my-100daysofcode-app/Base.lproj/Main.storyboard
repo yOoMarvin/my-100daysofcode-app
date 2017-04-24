@@ -1134,7 +1134,43 @@ Not the most fun one, but important to know!</string>
                     <view key="view" contentMode="scaleToFill" id="Luz-pQ-hf4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OzP-tr-Vdo">
+                                <rect key="frame" x="0.0" y="20" width="375" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project 6: Reader" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSX-2s-g9M">
+                                        <rect key="frame" x="8" y="8" width="359" height="84"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9911913872" green="0.45838895439999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="VSX-2s-g9M" firstAttribute="top" secondItem="OzP-tr-Vdo" secondAttribute="top" constant="8" id="IrL-fD-hjC"/>
+                                    <constraint firstAttribute="height" constant="100" id="R1z-MO-sKd"/>
+                                    <constraint firstAttribute="trailing" secondItem="VSX-2s-g9M" secondAttribute="trailing" constant="8" id="R7T-hi-hQE"/>
+                                    <constraint firstItem="VSX-2s-g9M" firstAttribute="leading" secondItem="OzP-tr-Vdo" secondAttribute="leading" constant="8" id="or7-N8-UMu"/>
+                                    <constraint firstAttribute="bottom" secondItem="VSX-2s-g9M" secondAttribute="bottom" constant="8" id="t6s-Ed-0Yx"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixf-v0-0S5">
+                                <rect key="frame" x="24" y="136" width="327" height="344.5"/>
+                                <string key="text">Well, the name is the program, I guess. My goal here was to get some stuff to read from my favorite online magazine. With the help of their RSS feed, I’ve coded myself a little CollectionView based app that fetches the newest articles and shows you some stuff! After that, there is a WebView for reading the content. Simple and effective in learning new UIKit elements! </string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OzP-tr-Vdo" firstAttribute="top" secondItem="vz0-JT-Anp" secondAttribute="bottom" id="4fC-NJ-Fh5"/>
+                            <constraint firstItem="Ixf-v0-0S5" firstAttribute="leading" secondItem="Luz-pQ-hf4" secondAttribute="leadingMargin" constant="8" id="SyH-Bs-TuF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ixf-v0-0S5" secondAttribute="trailing" constant="8" id="dPP-9v-RAB"/>
+                            <constraint firstItem="Ixf-v0-0S5" firstAttribute="top" secondItem="OzP-tr-Vdo" secondAttribute="bottom" constant="16" id="jmv-Sl-nH9"/>
+                            <constraint firstItem="OzP-tr-Vdo" firstAttribute="leading" secondItem="Luz-pQ-hf4" secondAttribute="leading" id="xk4-hm-tFt"/>
+                            <constraint firstAttribute="trailing" secondItem="OzP-tr-Vdo" secondAttribute="trailing" id="zeL-9A-bfz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FKY-p5-RF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
