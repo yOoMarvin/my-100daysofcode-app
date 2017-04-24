@@ -1152,7 +1152,57 @@ Not the most fun one, but important to know!</string>
                     <view key="view" contentMode="scaleToFill" id="Ur9-c9-Sd7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CBT-2b-nP8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project 5: Simple seconds" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCX-1N-Ttb">
+                                        <rect key="frame" x="8" y="8" width="359" height="84"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="YCX-1N-Ttb" secondAttribute="bottom" constant="8" id="XZg-Se-Kce"/>
+                                    <constraint firstAttribute="trailing" secondItem="YCX-1N-Ttb" secondAttribute="trailing" constant="8" id="Xsh-cy-Y0A"/>
+                                    <constraint firstAttribute="height" constant="100" id="b96-g6-mCW"/>
+                                    <constraint firstItem="YCX-1N-Ttb" firstAttribute="leading" secondItem="CBT-2b-nP8" secondAttribute="leading" constant="8" id="iEK-mJ-wtN"/>
+                                    <constraint firstItem="YCX-1N-Ttb" firstAttribute="top" secondItem="CBT-2b-nP8" secondAttribute="top" constant="8" id="j1g-QU-cl3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kc4-T8-Maw">
+                                <rect key="frame" x="0.0" y="417" width="375" height="250"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7e-ZD-wJl">
+                                        <rect key="frame" x="8" y="0.0" width="359" height="250"/>
+                                        <string key="text">Because I’m a tea lover, I always need a timer to get the perfect tea. So, why not coding a simple little timer app myself? 
+With this simple timer, I was diving in the world of notifications and the new local notifications in iOS 10. Quick and funny!</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.12343573569999999" green="0.54234087470000003" blue="0.4392843246" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="JIQ-4R-BKc"/>
+                                    <constraint firstAttribute="bottom" secondItem="b7e-ZD-wJl" secondAttribute="bottom" id="OP0-ZW-D0F"/>
+                                    <constraint firstItem="b7e-ZD-wJl" firstAttribute="top" secondItem="kc4-T8-Maw" secondAttribute="top" id="aBq-IZ-aQ8"/>
+                                    <constraint firstItem="b7e-ZD-wJl" firstAttribute="leading" secondItem="kc4-T8-Maw" secondAttribute="leading" constant="8" id="cVL-9h-qGg"/>
+                                    <constraint firstAttribute="trailing" secondItem="b7e-ZD-wJl" secondAttribute="trailing" constant="8" id="giS-AI-BFp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CBT-2b-nP8" secondAttribute="trailing" id="8g4-F3-i5y"/>
+                            <constraint firstItem="CBT-2b-nP8" firstAttribute="leading" secondItem="Ur9-c9-Sd7" secondAttribute="leading" id="8h0-Xd-IOa"/>
+                            <constraint firstItem="60m-Nm-3pj" firstAttribute="top" secondItem="kc4-T8-Maw" secondAttribute="bottom" id="BGf-YL-scX"/>
+                            <constraint firstItem="kc4-T8-Maw" firstAttribute="leading" secondItem="Ur9-c9-Sd7" secondAttribute="leading" id="IyJ-Zw-LGf"/>
+                            <constraint firstItem="CBT-2b-nP8" firstAttribute="top" secondItem="Ezg-13-pii" secondAttribute="bottom" id="awd-Kn-Nzu"/>
+                            <constraint firstAttribute="trailing" secondItem="kc4-T8-Maw" secondAttribute="trailing" id="bh0-N1-K2T"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CeG-NS-K4w" userLabel="First Responder" sceneMemberID="firstResponder"/>
