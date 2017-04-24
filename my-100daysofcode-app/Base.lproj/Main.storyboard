@@ -1003,6 +1003,97 @@ So I grabbed the  SpriteKit for iOS development and started to make a little gam
             </objects>
             <point key="canvasLocation" x="4252" y="427"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="tB3-iy-byj">
+            <objects>
+                <viewController storyboardIdentifier="AppProjectFourViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M0N-ZO-9Hv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ibX-DF-8sM"/>
+                        <viewControllerLayoutGuide type="bottom" id="EFa-BP-aOd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GsS-dx-lJ9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5F-Ja-YWk">
+                                <rect key="frame" x="0.0" y="20" width="375" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project 4: Zoo animals" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RrQ-BY-mDj">
+                                        <rect key="frame" x="8" y="8" width="359" height="84"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="3Z4-3m-Idq"/>
+                                    <constraint firstItem="RrQ-BY-mDj" firstAttribute="top" secondItem="Z5F-Ja-YWk" secondAttribute="top" constant="8" id="EqI-vK-xh3"/>
+                                    <constraint firstAttribute="trailing" secondItem="RrQ-BY-mDj" secondAttribute="trailing" constant="8" id="KEC-d2-kB2"/>
+                                    <constraint firstItem="RrQ-BY-mDj" firstAttribute="leading" secondItem="Z5F-Ja-YWk" secondAttribute="leading" constant="8" id="LMl-wP-8Ap"/>
+                                    <constraint firstAttribute="bottom" secondItem="RrQ-BY-mDj" secondAttribute="bottom" constant="8" id="sfq-NR-b6N"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRj-yb-Z9K">
+                                <rect key="frame" x="187.5" y="120" width="187.5" height="250"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml3-Ve-ErG">
+                                        <rect key="frame" x="8" y="0.0" width="171.5" height="250"/>
+                                        <string key="text">In this app, the name has totally nothing to do with the topic. But actually, it is a very important topic! Or don’t you want to read your app in your home language? </string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ml3-Ve-ErG" secondAttribute="bottom" id="XMZ-QO-kfm"/>
+                                    <constraint firstAttribute="height" constant="250" id="arT-2d-QbH"/>
+                                    <constraint firstAttribute="trailing" secondItem="ml3-Ve-ErG" secondAttribute="trailing" constant="8" id="d8B-YK-gwc"/>
+                                    <constraint firstItem="ml3-Ve-ErG" firstAttribute="leading" secondItem="aRj-yb-Z9K" secondAttribute="leading" constant="8" id="n6n-cG-5JJ"/>
+                                    <constraint firstItem="ml3-Ve-ErG" firstAttribute="top" secondItem="aRj-yb-Z9K" secondAttribute="top" id="xde-fb-Efn"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zLF-FP-6P3">
+                                <rect key="frame" x="0.0" y="370" width="375" height="297"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tM-1E-1vZ">
+                                        <rect key="frame" x="8" y="0.0" width="359" height="297"/>
+                                        <string key="text">So, here I’ve developed a nice little app to get fit with the subject of app localization. The starting point was a TableView and some Detail views with images etc. When you change your system language, the app should notice that and adapts all the texts and images to the language. Well if it is available in the translation. 
+Not the most fun one, but important to know!</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9911913872" green="0.45838895439999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8tM-1E-1vZ" secondAttribute="trailing" constant="8" id="OWt-Qt-7zI"/>
+                                    <constraint firstItem="8tM-1E-1vZ" firstAttribute="top" secondItem="zLF-FP-6P3" secondAttribute="top" id="S4p-tg-22B"/>
+                                    <constraint firstItem="8tM-1E-1vZ" firstAttribute="leading" secondItem="zLF-FP-6P3" secondAttribute="leading" constant="8" id="udc-b9-mUr"/>
+                                    <constraint firstAttribute="bottom" secondItem="8tM-1E-1vZ" secondAttribute="bottom" id="zih-GY-rnE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aRj-yb-Z9K" firstAttribute="width" secondItem="GsS-dx-lJ9" secondAttribute="width" multiplier="1:2" id="5Vu-wM-Pgm"/>
+                            <constraint firstItem="zLF-FP-6P3" firstAttribute="leading" secondItem="GsS-dx-lJ9" secondAttribute="leading" id="C9b-j3-Wsq"/>
+                            <constraint firstItem="Z5F-Ja-YWk" firstAttribute="top" secondItem="ibX-DF-8sM" secondAttribute="bottom" id="FgC-rh-S8f"/>
+                            <constraint firstItem="zLF-FP-6P3" firstAttribute="top" secondItem="aRj-yb-Z9K" secondAttribute="bottom" id="SOb-SQ-7uU"/>
+                            <constraint firstAttribute="trailing" secondItem="Z5F-Ja-YWk" secondAttribute="trailing" id="WAD-Kb-muK"/>
+                            <constraint firstItem="aRj-yb-Z9K" firstAttribute="top" secondItem="Z5F-Ja-YWk" secondAttribute="bottom" id="Yhg-92-wPG"/>
+                            <constraint firstAttribute="trailing" secondItem="aRj-yb-Z9K" secondAttribute="trailing" id="dSN-pj-DS0"/>
+                            <constraint firstItem="EFa-BP-aOd" firstAttribute="top" secondItem="zLF-FP-6P3" secondAttribute="bottom" id="iUs-7Y-iRH"/>
+                            <constraint firstItem="Z5F-Ja-YWk" firstAttribute="leading" secondItem="GsS-dx-lJ9" secondAttribute="leading" id="oNe-4p-vJX"/>
+                            <constraint firstAttribute="trailing" secondItem="zLF-FP-6P3" secondAttribute="trailing" id="ys0-qq-QxD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCp-jr-8OB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4988" y="427"/>
+        </scene>
         <!--Web Projects Page View Controller-->
         <scene sceneID="dbb-DH-hb6">
             <objects>
@@ -1031,6 +1122,42 @@ So I grabbed the  SpriteKit for iOS development and started to make a little gam
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FQS-rA-DLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="36.431784107946029"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jwb-9i-nmY">
+            <objects>
+                <viewController storyboardIdentifier="AppProjectSixViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vt1-bR-04q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vz0-JT-Anp"/>
+                        <viewControllerLayoutGuide type="bottom" id="dQF-gj-b7L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Luz-pQ-hf4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FKY-p5-RF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6681" y="427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vBP-HK-2pc">
+            <objects>
+                <viewController storyboardIdentifier="AppProjectFiveViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pyb-QZ-386" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ezg-13-pii"/>
+                        <viewControllerLayoutGuide type="bottom" id="60m-Nm-3pj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ur9-c9-Sd7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CeG-NS-K4w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5812" y="427"/>
         </scene>
     </scenes>
 </document>
