@@ -1188,12 +1188,108 @@ Not the most fun one, but important to know!</string>
                     <view key="view" contentMode="scaleToFill" id="eOh-IB-oDi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nUQ-iV-pNI">
+                                <rect key="frame" x="0.0" y="20" width="375" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project 7: Simplecam" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1h-TS-QHx">
+                                        <rect key="frame" x="8" y="8" width="359" height="84"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.12343573569999999" green="0.54234087470000003" blue="0.4392843246" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="c1h-TS-QHx" secondAttribute="bottom" constant="8" id="7vt-EW-nZl"/>
+                                    <constraint firstAttribute="bottom" secondItem="c1h-TS-QHx" secondAttribute="bottom" constant="8" id="K2Z-jH-uzZ"/>
+                                    <constraint firstItem="c1h-TS-QHx" firstAttribute="top" secondItem="nUQ-iV-pNI" secondAttribute="top" constant="8" id="bXb-FU-m3e"/>
+                                    <constraint firstItem="c1h-TS-QHx" firstAttribute="leading" secondItem="nUQ-iV-pNI" secondAttribute="leading" constant="8" id="bvu-3N-fQz"/>
+                                    <constraint firstAttribute="trailing" secondItem="c1h-TS-QHx" secondAttribute="trailing" constant="8" id="cYi-Re-zeS"/>
+                                    <constraint firstAttribute="height" constant="100" id="d5V-e8-Cyj"/>
+                                    <constraint firstItem="c1h-TS-QHx" firstAttribute="leading" secondItem="nUQ-iV-pNI" secondAttribute="leading" constant="8" id="e67-Y0-Ghr"/>
+                                    <constraint firstItem="c1h-TS-QHx" firstAttribute="top" secondItem="nUQ-iV-pNI" secondAttribute="top" constant="8" id="itF-ug-GNS"/>
+                                    <constraint firstAttribute="trailing" secondItem="c1h-TS-QHx" secondAttribute="trailing" constant="8" id="lFn-3H-Lgq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eq0-Re-CzF">
+                                <rect key="frame" x="0.0" y="120" width="375" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GJ-sF-L92">
+                                        <rect key="frame" x="8" y="0.0" width="359" height="150"/>
+                                        <string key="text">To deepen my work with CollectionViews I've decided to make a little custom photo library, where you can add photos from your library. Again saved everything with core data to get more comfortable with that! Nice little project, where I have learned a lot of things</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.74446094039999999" green="0.86367416379999995" blue="0.2233695537" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="0GJ-sF-L92" firstAttribute="top" secondItem="Eq0-Re-CzF" secondAttribute="top" id="5Ob-Y4-V49"/>
+                                    <constraint firstAttribute="height" constant="150" id="6EE-QN-Lby"/>
+                                    <constraint firstItem="0GJ-sF-L92" firstAttribute="leading" secondItem="Eq0-Re-CzF" secondAttribute="leading" constant="8" id="Uv9-n7-Ggu"/>
+                                    <constraint firstAttribute="bottom" secondItem="0GJ-sF-L92" secondAttribute="bottom" id="oxx-mS-4Mb"/>
+                                    <constraint firstAttribute="trailing" secondItem="0GJ-sF-L92" secondAttribute="trailing" constant="8" id="pvs-2m-QQV"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oWt-mN-WzZ">
+                                <rect key="frame" x="0.0" y="517" width="375" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gw3-4p-JMp">
+                                        <rect key="frame" x="8" y="0.0" width="359" height="150"/>
+                                        <string key="text">After a short while the idea came in mind that it would also be very useful to add photos via camera. So, let’s do that! I have added a custom overlay and got to know some things about XIB files. Added some nice buttons to it, and here you go. Your custom little camera!</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="1gn-Td-896"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gw3-4p-JMp" secondAttribute="trailing" constant="8" id="2V3-qa-eWf"/>
+                                    <constraint firstItem="Gw3-4p-JMp" firstAttribute="leading" secondItem="oWt-mN-WzZ" secondAttribute="leading" constant="8" id="Rw8-Y4-hRf"/>
+                                    <constraint firstItem="Gw3-4p-JMp" firstAttribute="top" secondItem="oWt-mN-WzZ" secondAttribute="top" id="i2f-ef-Rvk"/>
+                                    <constraint firstAttribute="bottom" secondItem="Gw3-4p-JMp" secondAttribute="bottom" id="x7Z-cg-3a1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dA7-KP-Gxj">
+                                <rect key="frame" x="320" y="270" width="55" height="247"/>
+                                <color key="backgroundColor" red="0.74446094039999999" green="0.86367416379999995" blue="0.2233695537" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="I8U-Os-gTz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dau-nV-b9f">
+                                <rect key="frame" x="0.0" y="270" width="55" height="247"/>
+                                <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="6RB-eV-rkF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oWt-mN-WzZ" firstAttribute="leading" secondItem="eOh-IB-oDi" secondAttribute="leading" id="BUf-4N-lAg"/>
+                            <constraint firstAttribute="trailing" secondItem="nUQ-iV-pNI" secondAttribute="trailing" id="BlG-NN-v2O"/>
+                            <constraint firstItem="oWt-mN-WzZ" firstAttribute="top" secondItem="dau-nV-b9f" secondAttribute="bottom" id="CCn-DW-9zF"/>
+                            <constraint firstItem="dA7-KP-Gxj" firstAttribute="top" secondItem="Eq0-Re-CzF" secondAttribute="bottom" id="D3w-6s-Z9x"/>
+                            <constraint firstAttribute="trailing" secondItem="oWt-mN-WzZ" secondAttribute="trailing" id="Hdp-Wf-d1l"/>
+                            <constraint firstItem="nUQ-iV-pNI" firstAttribute="leading" secondItem="eOh-IB-oDi" secondAttribute="leading" id="Jey-ST-ikk"/>
+                            <constraint firstAttribute="trailing" secondItem="dA7-KP-Gxj" secondAttribute="trailing" id="MkL-m4-svM"/>
+                            <constraint firstItem="kVT-US-2nQ" firstAttribute="top" secondItem="oWt-mN-WzZ" secondAttribute="bottom" id="Uhh-Be-kQU"/>
+                            <constraint firstItem="Eq0-Re-CzF" firstAttribute="leading" secondItem="eOh-IB-oDi" secondAttribute="leading" id="W57-mo-Lkq"/>
+                            <constraint firstAttribute="trailing" secondItem="Eq0-Re-CzF" secondAttribute="trailing" id="Whl-H5-4OY"/>
+                            <constraint firstItem="nUQ-iV-pNI" firstAttribute="top" secondItem="126-at-m72" secondAttribute="bottom" id="ciS-as-4kx"/>
+                            <constraint firstItem="dau-nV-b9f" firstAttribute="top" secondItem="Eq0-Re-CzF" secondAttribute="bottom" id="hRG-cl-Neq"/>
+                            <constraint firstItem="Eq0-Re-CzF" firstAttribute="top" secondItem="nUQ-iV-pNI" secondAttribute="bottom" id="puz-sb-v0G"/>
+                            <constraint firstItem="oWt-mN-WzZ" firstAttribute="top" secondItem="dA7-KP-Gxj" secondAttribute="bottom" id="rb5-LK-g6M"/>
+                            <constraint firstItem="dau-nV-b9f" firstAttribute="leading" secondItem="eOh-IB-oDi" secondAttribute="leading" id="zIh-2v-4ax"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fl6-0D-OtZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7465" y="427"/>
+            <point key="canvasLocation" x="7464.8000000000002" y="425.93703148425789"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Sng-cY-TVd">
