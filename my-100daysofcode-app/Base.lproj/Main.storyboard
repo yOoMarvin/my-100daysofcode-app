@@ -1407,7 +1407,7 @@ Not the most fun one, but important to know!</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PjD-Wb-7oR">
-                                <rect key="frame" x="0.0" y="208.5" width="375" height="250"/>
+                                <rect key="frame" x="0.0" y="232" width="375" height="250"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnU-SW-7Hh">
                                         <rect key="frame" x="8" y="0.0" width="359" height="250"/>
@@ -1429,8 +1429,8 @@ Not the most fun one, but important to know!</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="PjD-Wb-7oR" firstAttribute="top" secondItem="4pX-0n-sFn" secondAttribute="bottom" constant="120" id="0jO-hJ-IdI"/>
                             <constraint firstItem="aVo-PO-kGN" firstAttribute="leading" secondItem="oTF-8m-IWo" secondAttribute="leading" id="MEC-KD-R0X"/>
-                            <constraint firstItem="PjD-Wb-7oR" firstAttribute="centerY" secondItem="oTF-8m-IWo" secondAttribute="centerY" id="PL0-eg-630"/>
                             <constraint firstAttribute="trailing" secondItem="PjD-Wb-7oR" secondAttribute="trailing" id="YdR-a2-jSY"/>
                             <constraint firstItem="aVo-PO-kGN" firstAttribute="top" secondItem="o2p-BU-ese" secondAttribute="bottom" id="gOw-hs-UJ0"/>
                             <constraint firstAttribute="trailing" secondItem="aVo-PO-kGN" secondAttribute="trailing" id="ywp-P8-GJV"/>
