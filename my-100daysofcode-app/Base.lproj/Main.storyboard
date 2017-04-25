@@ -1302,7 +1302,51 @@ Not the most fun one, but important to know!</string>
                     <view key="view" contentMode="scaleToFill" id="9eH-b6-lT4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uB1-F3-cdq">
+                                <rect key="frame" x="0.0" y="20" width="375" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project 8: Quoty" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nue-iC-sQt">
+                                        <rect key="frame" x="8" y="8" width="359" height="84"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="nue-iC-sQt" secondAttribute="trailing" constant="8" id="CzT-e7-8Wk"/>
+                                    <constraint firstAttribute="bottom" secondItem="nue-iC-sQt" secondAttribute="bottom" constant="8" id="P2j-CX-ZMN"/>
+                                    <constraint firstItem="nue-iC-sQt" firstAttribute="top" secondItem="uB1-F3-cdq" secondAttribute="top" constant="8" id="TMc-Q4-3f4"/>
+                                    <constraint firstAttribute="height" constant="100" id="Ubl-PV-Sf1"/>
+                                    <constraint firstItem="nue-iC-sQt" firstAttribute="leading" secondItem="uB1-F3-cdq" secondAttribute="leading" constant="8" id="Y8Z-Uu-Gyf"/>
+                                    <constraint firstItem="nue-iC-sQt" firstAttribute="top" secondItem="uB1-F3-cdq" secondAttribute="top" constant="8" id="atc-IF-mX9"/>
+                                    <constraint firstItem="nue-iC-sQt" firstAttribute="leading" secondItem="uB1-F3-cdq" secondAttribute="leading" constant="8" id="cCP-Tn-reQ"/>
+                                    <constraint firstItem="nue-iC-sQt" firstAttribute="leading" secondItem="uB1-F3-cdq" secondAttribute="leading" constant="8" id="kff-fR-yP5"/>
+                                    <constraint firstItem="nue-iC-sQt" firstAttribute="top" secondItem="uB1-F3-cdq" secondAttribute="top" constant="8" id="syU-Wv-9Og"/>
+                                    <constraint firstAttribute="bottom" secondItem="nue-iC-sQt" secondAttribute="bottom" constant="8" id="t5p-6d-G0e"/>
+                                    <constraint firstAttribute="trailing" secondItem="nue-iC-sQt" secondAttribute="trailing" constant="8" id="tcl-t9-rbx"/>
+                                    <constraint firstAttribute="trailing" secondItem="nue-iC-sQt" secondAttribute="trailing" constant="8" id="wTx-Mc-tzy"/>
+                                    <constraint firstAttribute="bottom" secondItem="nue-iC-sQt" secondAttribute="bottom" constant="8" id="xxy-5q-iao"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qI-JC-4XM">
+                                <rect key="frame" x="8" y="136" width="359" height="209"/>
+                                <string key="text">This one is definitely one of my faves! Quoty was such an amazing project and I will absolutely return to it in the future to improve it more and make it even more beautiful. Actually, it is some kind of iOS version of my first web project, but this works so fine for the mobile screen! Also added some nice twitter functionality with the social kit. Tuned for more!</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4qI-JC-4XM" firstAttribute="leading" secondItem="9eH-b6-lT4" secondAttribute="leading" constant="8" id="A9x-tc-Q7s"/>
+                            <constraint firstAttribute="trailing" secondItem="uB1-F3-cdq" secondAttribute="trailing" id="KOh-ub-Jmt"/>
+                            <constraint firstItem="uB1-F3-cdq" firstAttribute="top" secondItem="fPv-mb-inm" secondAttribute="bottom" id="PcJ-Hm-jAU"/>
+                            <constraint firstAttribute="trailing" secondItem="4qI-JC-4XM" secondAttribute="trailing" constant="8" id="hwp-Et-8ix"/>
+                            <constraint firstItem="uB1-F3-cdq" firstAttribute="leading" secondItem="9eH-b6-lT4" secondAttribute="leading" id="sjP-U2-bXl"/>
+                            <constraint firstItem="4qI-JC-4XM" firstAttribute="top" secondItem="uB1-F3-cdq" secondAttribute="bottom" constant="16" id="uBL-6d-UD0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpY-MN-Th5" userLabel="First Responder" sceneMemberID="firstResponder"/>
