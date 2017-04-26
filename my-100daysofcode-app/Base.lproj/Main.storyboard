@@ -871,18 +871,39 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
                                     <constraint firstItem="EnJ-Wr-QHo" firstAttribute="leading" secondItem="wbA-Fh-RjX" secondAttribute="leading" constant="8" id="e9e-2N-7ov"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="16v-B7-fDv">
+                                <rect key="frame" x="0.0" y="120" width="171.5" height="350"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="microphone" translatesAutoresizingMaskIntoConstraints="NO" id="ohh-Ui-J7l">
+                                        <rect key="frame" x="35" y="75" width="100" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="WLK-7c-mHM"/>
+                                            <constraint firstAttribute="width" constant="100" id="wi5-GH-vDH"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ohh-Ui-J7l" firstAttribute="centerY" secondItem="16v-B7-fDv" secondAttribute="centerY" id="2YA-Uk-gSe"/>
+                                    <constraint firstItem="ohh-Ui-J7l" firstAttribute="centerX" secondItem="16v-B7-fDv" secondAttribute="centerX" id="Agk-x9-iif"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wbA-Fh-RjX" firstAttribute="leading" secondItem="jkv-LS-S17" secondAttribute="leading" id="1x6-iN-xhu"/>
+                            <constraint firstItem="16v-B7-fDv" firstAttribute="width" secondItem="Uzg-1j-8j5" secondAttribute="width" id="2T7-EC-isY"/>
                             <constraint firstItem="vEk-F3-cTU" firstAttribute="top" secondItem="pTB-s7-XtK" secondAttribute="bottom" id="D8q-Ki-47I"/>
+                            <constraint firstItem="wbA-Fh-RjX" firstAttribute="top" secondItem="16v-B7-fDv" secondAttribute="bottom" id="FdG-Tn-1TQ"/>
                             <constraint firstItem="pTB-s7-XtK" firstAttribute="leading" secondItem="jkv-LS-S17" secondAttribute="leading" id="L7s-TV-4e3"/>
                             <constraint firstAttribute="trailing" secondItem="wbA-Fh-RjX" secondAttribute="trailing" id="Sfs-xe-xOe"/>
                             <constraint firstItem="vEk-F3-cTU" firstAttribute="width" secondItem="jkv-LS-S17" secondAttribute="width" multiplier="1:2" id="brf-tS-RNv"/>
                             <constraint firstAttribute="trailing" secondItem="vEk-F3-cTU" secondAttribute="trailing" id="dDw-Cf-9MJ"/>
+                            <constraint firstItem="16v-B7-fDv" firstAttribute="top" secondItem="pTB-s7-XtK" secondAttribute="bottom" id="m5e-Pb-1bN"/>
                             <constraint firstItem="pTB-s7-XtK" firstAttribute="top" secondItem="R97-VZ-Na5" secondAttribute="bottom" id="mvn-Fc-Rgg"/>
                             <constraint firstItem="HLO-SZ-19G" firstAttribute="top" secondItem="wbA-Fh-RjX" secondAttribute="bottom" id="nWr-ey-g4Y"/>
                             <constraint firstAttribute="trailing" secondItem="pTB-s7-XtK" secondAttribute="trailing" id="qxk-RJ-x5m"/>
+                            <constraint firstItem="16v-B7-fDv" firstAttribute="leading" secondItem="jkv-LS-S17" secondAttribute="leading" id="uo0-Ex-9o4"/>
                             <constraint firstItem="wbA-Fh-RjX" firstAttribute="top" secondItem="vEk-F3-cTU" secondAttribute="bottom" id="zEW-K0-Vhc"/>
                         </constraints>
                     </view>
@@ -942,14 +963,21 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
                                     <constraint firstAttribute="height" constant="100" id="yML-R8-nTu"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hexhex" translatesAutoresizingMaskIntoConstraints="NO" id="ASZ-dX-EVj">
+                                <rect key="frame" x="24" y="290" width="327" height="377"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ASZ-dX-EVj" firstAttribute="top" secondItem="tEL-MG-MmR" secondAttribute="bottom" constant="20" id="2EV-Pz-TOY"/>
                             <constraint firstAttribute="trailing" secondItem="tEL-MG-MmR" secondAttribute="trailing" id="J4V-Qd-PTn"/>
                             <constraint firstAttribute="trailing" secondItem="6SZ-oQ-dvP" secondAttribute="trailing" id="JqR-sz-ic0"/>
                             <constraint firstItem="6SZ-oQ-dvP" firstAttribute="top" secondItem="ppR-Qq-B21" secondAttribute="bottom" id="LOt-Ma-5bY"/>
                             <constraint firstAttribute="trailing" secondItem="6SZ-oQ-dvP" secondAttribute="trailing" id="MSR-CU-FiS"/>
                             <constraint firstItem="6SZ-oQ-dvP" firstAttribute="leading" secondItem="U4a-fR-AZ0" secondAttribute="leading" id="MTV-FG-GUg"/>
+                            <constraint firstItem="ASZ-dX-EVj" firstAttribute="leading" secondItem="U4a-fR-AZ0" secondAttribute="leadingMargin" constant="8" id="SbM-8C-U4H"/>
+                            <constraint firstItem="mbE-4T-znb" firstAttribute="top" secondItem="ASZ-dX-EVj" secondAttribute="bottom" id="T5V-GM-oca"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ASZ-dX-EVj" secondAttribute="trailing" constant="8" id="dKv-Dv-xJw"/>
                             <constraint firstItem="tEL-MG-MmR" firstAttribute="top" secondItem="6SZ-oQ-dvP" secondAttribute="bottom" id="rNz-fD-SOq"/>
                             <constraint firstItem="6SZ-oQ-dvP" firstAttribute="leading" secondItem="U4a-fR-AZ0" secondAttribute="leading" id="rZ9-Vi-MnI"/>
                             <constraint firstItem="tEL-MG-MmR" firstAttribute="leading" secondItem="U4a-fR-AZ0" secondAttribute="leading" id="upg-Nb-FkX"/>
@@ -1130,18 +1158,39 @@ Not the most fun one, but important to know!</string>
                                     <constraint firstAttribute="bottom" secondItem="8tM-1E-1vZ" secondAttribute="bottom" id="zih-GY-rnE"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjf-Tg-Sb7">
+                                <rect key="frame" x="0.0" y="120" width="171.5" height="250"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="globe" translatesAutoresizingMaskIntoConstraints="NO" id="Tfb-K3-dpf">
+                                        <rect key="frame" x="10" y="50" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="BFP-31-UDV"/>
+                                            <constraint firstAttribute="height" constant="150" id="GKp-Jz-CgY"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Tfb-K3-dpf" firstAttribute="centerX" secondItem="cjf-Tg-Sb7" secondAttribute="centerX" id="Tmb-Uy-OD3"/>
+                                    <constraint firstItem="Tfb-K3-dpf" firstAttribute="centerY" secondItem="cjf-Tg-Sb7" secondAttribute="centerY" id="nkA-ji-IZe"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="aRj-yb-Z9K" firstAttribute="width" secondItem="GsS-dx-lJ9" secondAttribute="width" multiplier="1:2" id="5Vu-wM-Pgm"/>
                             <constraint firstItem="zLF-FP-6P3" firstAttribute="leading" secondItem="GsS-dx-lJ9" secondAttribute="leading" id="C9b-j3-Wsq"/>
                             <constraint firstItem="Z5F-Ja-YWk" firstAttribute="top" secondItem="ibX-DF-8sM" secondAttribute="bottom" id="FgC-rh-S8f"/>
+                            <constraint firstItem="cjf-Tg-Sb7" firstAttribute="top" secondItem="Z5F-Ja-YWk" secondAttribute="bottom" id="McT-Ox-lWJ"/>
+                            <constraint firstItem="zLF-FP-6P3" firstAttribute="top" secondItem="cjf-Tg-Sb7" secondAttribute="bottom" id="NIy-03-tCL"/>
                             <constraint firstItem="zLF-FP-6P3" firstAttribute="top" secondItem="aRj-yb-Z9K" secondAttribute="bottom" id="SOb-SQ-7uU"/>
                             <constraint firstAttribute="trailing" secondItem="Z5F-Ja-YWk" secondAttribute="trailing" id="WAD-Kb-muK"/>
                             <constraint firstItem="aRj-yb-Z9K" firstAttribute="top" secondItem="Z5F-Ja-YWk" secondAttribute="bottom" id="Yhg-92-wPG"/>
+                            <constraint firstItem="cjf-Tg-Sb7" firstAttribute="width" secondItem="ml3-Ve-ErG" secondAttribute="width" id="d6L-Sh-W5K"/>
                             <constraint firstAttribute="trailing" secondItem="aRj-yb-Z9K" secondAttribute="trailing" id="dSN-pj-DS0"/>
                             <constraint firstItem="EFa-BP-aOd" firstAttribute="top" secondItem="zLF-FP-6P3" secondAttribute="bottom" id="iUs-7Y-iRH"/>
                             <constraint firstItem="Z5F-Ja-YWk" firstAttribute="leading" secondItem="GsS-dx-lJ9" secondAttribute="leading" id="oNe-4p-vJX"/>
+                            <constraint firstItem="cjf-Tg-Sb7" firstAttribute="leading" secondItem="GsS-dx-lJ9" secondAttribute="leading" id="rvn-Jl-f1C"/>
                             <constraint firstAttribute="trailing" secondItem="zLF-FP-6P3" secondAttribute="trailing" id="ys0-qq-QxD"/>
                         </constraints>
                     </view>
@@ -1639,15 +1688,22 @@ With this simple timer, I was diving in the world of notifications and the new l
                                     <constraint firstAttribute="trailing" secondItem="b7e-ZD-wJl" secondAttribute="trailing" constant="8" id="giS-AI-BFp"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timer" translatesAutoresizingMaskIntoConstraints="NO" id="7pJ-HT-ybV">
+                                <rect key="frame" x="24" y="140" width="327" height="257"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="kc4-T8-Maw" firstAttribute="top" secondItem="7pJ-HT-ybV" secondAttribute="bottom" constant="20" id="6Ty-gX-DnE"/>
                             <constraint firstAttribute="trailing" secondItem="CBT-2b-nP8" secondAttribute="trailing" id="8g4-F3-i5y"/>
                             <constraint firstItem="CBT-2b-nP8" firstAttribute="leading" secondItem="Ur9-c9-Sd7" secondAttribute="leading" id="8h0-Xd-IOa"/>
                             <constraint firstItem="60m-Nm-3pj" firstAttribute="top" secondItem="kc4-T8-Maw" secondAttribute="bottom" id="BGf-YL-scX"/>
                             <constraint firstItem="kc4-T8-Maw" firstAttribute="leading" secondItem="Ur9-c9-Sd7" secondAttribute="leading" id="IyJ-Zw-LGf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7pJ-HT-ybV" secondAttribute="trailing" constant="8" id="MFD-TK-1Ws"/>
                             <constraint firstItem="CBT-2b-nP8" firstAttribute="top" secondItem="Ezg-13-pii" secondAttribute="bottom" id="awd-Kn-Nzu"/>
                             <constraint firstAttribute="trailing" secondItem="kc4-T8-Maw" secondAttribute="trailing" id="bh0-N1-K2T"/>
+                            <constraint firstItem="7pJ-HT-ybV" firstAttribute="top" secondItem="CBT-2b-nP8" secondAttribute="bottom" constant="20" id="kfZ-Ix-dTg"/>
+                            <constraint firstItem="7pJ-HT-ybV" firstAttribute="leading" secondItem="Ur9-c9-Sd7" secondAttribute="leadingMargin" constant="8" id="ugf-wE-URw"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -1658,8 +1714,12 @@ With this simple timer, I was diving in the world of notifications and the new l
     </scenes>
     <resources>
         <image name="bitcoin" width="512" height="512"/>
+        <image name="globe" width="200" height="200"/>
+        <image name="hexhex" width="746" height="1326"/>
+        <image name="microphone" width="800" height="1622"/>
         <image name="quote-machine" width="2112" height="584"/>
         <image name="sun" width="512" height="512"/>
+        <image name="timer" width="512" height="512"/>
         <image name="wiki" width="2338" height="1208"/>
     </resources>
 </document>
