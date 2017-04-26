@@ -543,14 +543,23 @@ So I sat down almost every day and coded some of these little projects…</strin
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoin" translatesAutoresizingMaskIntoConstraints="NO" id="eXH-3y-4gx">
+                                <rect key="frame" x="112" y="415" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="MfB-hI-uLE"/>
+                                    <constraint firstAttribute="width" constant="150" id="cqG-nM-pnK"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="3Zz-yb-x79" secondAttribute="trailing" id="1HJ-K7-RzX"/>
                             <constraint firstItem="BAe-Bo-YKx" firstAttribute="leading" secondItem="Zc9-pW-Zul" secondAttribute="leadingMargin" constant="8" id="1iT-3f-d8x"/>
+                            <constraint firstItem="eXH-3y-4gx" firstAttribute="centerX" secondItem="Zc9-pW-Zul" secondAttribute="centerX" id="5Uh-yE-M21"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BAe-Bo-YKx" secondAttribute="trailing" constant="8" id="AUf-Wj-y0n"/>
                             <constraint firstItem="3Zz-yb-x79" firstAttribute="leading" secondItem="Zc9-pW-Zul" secondAttribute="leading" id="Ka3-w1-46B"/>
                             <constraint firstItem="BAe-Bo-YKx" firstAttribute="top" secondItem="3Zz-yb-x79" secondAttribute="bottom" constant="16" id="RNH-1h-dAM"/>
+                            <constraint firstItem="eXH-3y-4gx" firstAttribute="top" secondItem="BAe-Bo-YKx" secondAttribute="bottom" constant="50" id="fiS-ES-Atg"/>
                             <constraint firstItem="3Zz-yb-x79" firstAttribute="top" secondItem="Ia8-kX-rYO" secondAttribute="bottom" id="pUD-dd-7Ad"/>
                         </constraints>
                     </view>
@@ -754,6 +763,9 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
                                     <constraint firstAttribute="height" constant="150" id="zXx-no-UVi"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quote-machine" translatesAutoresizingMaskIntoConstraints="NO" id="ZBI-QC-87i">
+                                <rect key="frame" x="24" y="470" width="327" height="197"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -762,16 +774,20 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
                             <constraint firstItem="kZr-GZ-Fy1" firstAttribute="top" secondItem="EEi-dJ-4FI" secondAttribute="bottom" id="Jap-EB-djn"/>
                             <constraint firstItem="EEi-dJ-4FI" firstAttribute="top" secondItem="wBh-7m-BEk" secondAttribute="bottom" id="Ptr-Am-hJv"/>
                             <constraint firstAttribute="trailing" secondItem="B80-xt-pRF" secondAttribute="trailing" id="Qs8-2R-olX"/>
+                            <constraint firstItem="zGV-8h-XBR" firstAttribute="top" secondItem="ZBI-QC-87i" secondAttribute="bottom" id="ROs-7J-s91"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZBI-QC-87i" secondAttribute="trailing" constant="8" id="Rwo-EU-JUq"/>
                             <constraint firstItem="B80-xt-pRF" firstAttribute="leading" secondItem="hm0-w9-ubX" secondAttribute="leading" id="YHr-Dy-geN"/>
+                            <constraint firstItem="ZBI-QC-87i" firstAttribute="top" secondItem="B80-xt-pRF" secondAttribute="bottom" id="d0Q-rl-WmH"/>
                             <constraint firstItem="EEi-dJ-4FI" firstAttribute="leading" secondItem="hm0-w9-ubX" secondAttribute="leading" id="g6w-QJ-U5a"/>
                             <constraint firstItem="B80-xt-pRF" firstAttribute="top" secondItem="kZr-GZ-Fy1" secondAttribute="bottom" id="jQV-ui-T9O"/>
+                            <constraint firstItem="ZBI-QC-87i" firstAttribute="leading" secondItem="hm0-w9-ubX" secondAttribute="leadingMargin" constant="8" id="kfF-pk-TUE"/>
                             <constraint firstItem="kZr-GZ-Fy1" firstAttribute="width" secondItem="hm0-w9-ubX" secondAttribute="width" multiplier="1:2" id="tme-CA-838"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nj7-kd-b0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2678" y="-339"/>
+            <point key="canvasLocation" x="2677.5999999999999" y="-339.58020989505252"/>
         </scene>
         <!--App Projects Page View Controller-->
         <scene sceneID="grz-mf-EBM">
@@ -1641,6 +1657,8 @@ With this simple timer, I was diving in the world of notifications and the new l
         </scene>
     </scenes>
     <resources>
+        <image name="bitcoin" width="512" height="512"/>
+        <image name="quote-machine" width="2112" height="584"/>
         <image name="sun" width="512" height="512"/>
         <image name="wiki" width="2338" height="1208"/>
     </resources>
