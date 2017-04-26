@@ -477,21 +477,33 @@ So I sat down almost every day and coded some of these little projects…</strin
                                     <constraint firstItem="c1d-RQ-7cu" firstAttribute="top" secondItem="KJa-9E-DvH" secondAttribute="top" constant="16" id="y9Z-AW-XVE"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wiki" translatesAutoresizingMaskIntoConstraints="NO" id="FTa-sE-4om">
+                                <rect key="frame" x="16" y="368" width="343" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="205" id="aZa-NB-eJi"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="FTa-sE-4om" firstAttribute="trailing" secondItem="yd0-pV-r5w" secondAttribute="trailingMargin" id="A44-7Z-lUs"/>
                             <constraint firstAttribute="trailing" secondItem="KJa-9E-DvH" secondAttribute="trailing" id="CIY-cR-bU3"/>
                             <constraint firstItem="Jdj-Uv-Fwg" firstAttribute="leading" secondItem="yd0-pV-r5w" secondAttribute="leading" id="GBh-bl-4DX"/>
+                            <constraint firstItem="FTa-sE-4om" firstAttribute="top" secondItem="KJa-9E-DvH" secondAttribute="bottom" constant="8" id="N5n-M9-1lV"/>
+                            <constraint firstItem="FTa-sE-4om" firstAttribute="top" secondItem="KJa-9E-DvH" secondAttribute="bottom" constant="8" id="NXc-Zh-3Rp"/>
+                            <constraint firstItem="FTa-sE-4om" firstAttribute="leading" secondItem="yd0-pV-r5w" secondAttribute="leadingMargin" id="QxQ-7l-EwI"/>
                             <constraint firstAttribute="trailing" secondItem="Jdj-Uv-Fwg" secondAttribute="trailing" id="Suj-IL-QLc"/>
+                            <constraint firstItem="FTa-sE-4om" firstAttribute="leading" secondItem="yd0-pV-r5w" secondAttribute="leadingMargin" id="UDe-UH-L7G"/>
                             <constraint firstItem="KJa-9E-DvH" firstAttribute="top" secondItem="Jdj-Uv-Fwg" secondAttribute="bottom" id="amD-Qo-RuG"/>
                             <constraint firstItem="Jdj-Uv-Fwg" firstAttribute="top" secondItem="bSE-XP-hHC" secondAttribute="bottom" id="css-e8-hnb"/>
+                            <constraint firstItem="FTa-sE-4om" firstAttribute="trailing" secondItem="yd0-pV-r5w" secondAttribute="trailingMargin" id="gIz-rF-7eI"/>
                             <constraint firstItem="KJa-9E-DvH" firstAttribute="leading" secondItem="yd0-pV-r5w" secondAttribute="leading" id="mUF-k8-9cB"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Pu-1u-Ooy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4252" y="-338"/>
+            <point key="canvasLocation" x="4252" y="-338.68065967016497"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ujt-u9-DaO">
@@ -1630,5 +1642,6 @@ With this simple timer, I was diving in the world of notifications and the new l
     </scenes>
     <resources>
         <image name="sun" width="512" height="512"/>
+        <image name="wiki" width="2338" height="1208"/>
     </resources>
 </document>
