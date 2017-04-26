@@ -10,6 +10,13 @@ import UIKit
 
 class StartViewController: UIViewController {
     
+    
+    @IBOutlet weak var webProjectsButton: UIButton!
+    @IBOutlet weak var appProjectsButton: UIButton!
+    
+    
+    
+    
     // Color properties
     let darkBlueColor = UIColor(red:0.00, green:0.26, blue:0.35, alpha:1.0)
     let mintGreenColor = UIColor(red:0.12, green:0.54, blue:0.44, alpha:1.0)
@@ -20,6 +27,10 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        webProjectsButton.layer.cornerRadius = 0.5 * webProjectsButton.bounds.size.width
+        
+        appProjectsButton.layer.cornerRadius = 0.5 * appProjectsButton.bounds.size.width
         
     }
 

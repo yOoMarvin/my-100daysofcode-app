@@ -222,8 +222,12 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                 <rect key="frame" x="0.0" y="1100" width="187.5" height="150"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPP-VE-k6o">
-                                                        <rect key="frame" x="32" y="32" width="123.5" height="86"/>
+                                                        <rect key="frame" x="44" y="25" width="100" height="100"/>
                                                         <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="fSI-sb-Haz"/>
+                                                            <constraint firstAttribute="width" constant="100" id="oGQ-Ll-Izs"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="32"/>
                                                         <state key="normal" title="web">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -236,19 +240,21 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.9911913872" green="0.45838895439999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="SPP-VE-k6o" secondAttribute="trailing" constant="32" id="9U4-7t-qou"/>
-                                                    <constraint firstItem="SPP-VE-k6o" firstAttribute="top" secondItem="deM-Ux-uHN" secondAttribute="top" constant="32" id="LY7-au-PSo"/>
-                                                    <constraint firstAttribute="bottom" secondItem="SPP-VE-k6o" secondAttribute="bottom" constant="32" id="N2P-6T-gRF"/>
                                                     <constraint firstAttribute="height" constant="150" id="XK1-4v-IhV"/>
-                                                    <constraint firstItem="SPP-VE-k6o" firstAttribute="leading" secondItem="deM-Ux-uHN" secondAttribute="leading" constant="32" id="aVp-UO-et3"/>
+                                                    <constraint firstItem="SPP-VE-k6o" firstAttribute="centerY" secondItem="deM-Ux-uHN" secondAttribute="centerY" id="rdF-MZ-gem"/>
+                                                    <constraint firstItem="SPP-VE-k6o" firstAttribute="centerX" secondItem="deM-Ux-uHN" secondAttribute="centerX" id="xbz-3L-jez"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TMs-Jg-kdO" userLabel="IOSProjectsView">
                                                 <rect key="frame" x="187.5" y="1100" width="187.5" height="150"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSp-4R-ETU">
-                                                        <rect key="frame" x="32" y="32" width="123.5" height="86"/>
+                                                        <rect key="frame" x="44" y="25" width="100" height="100"/>
                                                         <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="Gf1-Qx-Wvg"/>
+                                                            <constraint firstAttribute="width" constant="100" id="kj6-ls-8U2"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="32"/>
                                                         <state key="normal" title="iOS">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -261,11 +267,9 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.12343573569999999" green="0.54234087470000003" blue="0.4392843246" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstItem="zSp-4R-ETU" firstAttribute="leading" secondItem="TMs-Jg-kdO" secondAttribute="leading" constant="32" id="gNl-XZ-AdM"/>
-                                                    <constraint firstItem="zSp-4R-ETU" firstAttribute="top" secondItem="TMs-Jg-kdO" secondAttribute="top" constant="32" id="jcQ-zF-cNX"/>
+                                                    <constraint firstItem="zSp-4R-ETU" firstAttribute="centerY" secondItem="TMs-Jg-kdO" secondAttribute="centerY" id="1Yg-9z-3Sf"/>
                                                     <constraint firstAttribute="height" constant="150" id="jpe-Sj-1x6"/>
-                                                    <constraint firstAttribute="trailing" secondItem="zSp-4R-ETU" secondAttribute="trailing" constant="32" id="o9I-nb-4sK"/>
-                                                    <constraint firstAttribute="bottom" secondItem="zSp-4R-ETU" secondAttribute="bottom" constant="32" id="sIV-Gy-Ki8"/>
+                                                    <constraint firstItem="zSp-4R-ETU" firstAttribute="centerX" secondItem="TMs-Jg-kdO" secondAttribute="centerX" id="kTb-i4-Mob"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ibg-he-FnT" userLabel="NameView">
@@ -358,6 +362,10 @@ So I sat down almost every day and coded some of these little projects…</strin
                     <navigationItem key="navigationItem" id="FI1-t7-34F"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="1500"/>
+                    <connections>
+                        <outlet property="appProjectsButton" destination="zSp-4R-ETU" id="IZ1-zC-lXX"/>
+                        <outlet property="webProjectsButton" destination="SPP-VE-k6o" id="sPD-9R-MX7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
