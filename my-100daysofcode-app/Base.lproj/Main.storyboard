@@ -1260,27 +1260,38 @@ Not the most fun one, but important to know!</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixf-v0-0S5">
-                                <rect key="frame" x="24" y="136" width="327" height="344.5"/>
+                                <rect key="frame" x="24" y="136" width="327" height="343.5"/>
                                 <string key="text">Well, the name is the program, I guess. My goal here was to get some stuff to read from my favorite online magazine. With the help of their RSS feed, I’ve coded myself a little CollectionView based app that fetches the newest articles and shows you some stuff! After that, there is a WebView for reading the content. Simple and effective in learning new UIKit elements! </string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book" translatesAutoresizingMaskIntoConstraints="NO" id="tc9-lI-bAq">
+                                <rect key="frame" x="0.0" y="487" width="375" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="KFb-Na-oLl"/>
+                                    <constraint firstAttribute="height" constant="160" id="ME2-kH-3yB"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="OzP-tr-Vdo" firstAttribute="top" secondItem="vz0-JT-Anp" secondAttribute="bottom" id="4fC-NJ-Fh5"/>
+                            <constraint firstAttribute="trailing" secondItem="tc9-lI-bAq" secondAttribute="trailing" id="RMW-xV-jgE"/>
                             <constraint firstItem="Ixf-v0-0S5" firstAttribute="leading" secondItem="Luz-pQ-hf4" secondAttribute="leadingMargin" constant="8" id="SyH-Bs-TuF"/>
+                            <constraint firstItem="dQF-gj-b7L" firstAttribute="top" secondItem="tc9-lI-bAq" secondAttribute="bottom" constant="20" id="V7Q-Do-Rme"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ixf-v0-0S5" secondAttribute="trailing" constant="8" id="dPP-9v-RAB"/>
                             <constraint firstItem="Ixf-v0-0S5" firstAttribute="top" secondItem="OzP-tr-Vdo" secondAttribute="bottom" constant="16" id="jmv-Sl-nH9"/>
+                            <constraint firstItem="tc9-lI-bAq" firstAttribute="top" secondItem="Ixf-v0-0S5" secondAttribute="bottom" constant="8" id="pZR-F9-2vf"/>
                             <constraint firstItem="OzP-tr-Vdo" firstAttribute="leading" secondItem="Luz-pQ-hf4" secondAttribute="leading" id="xk4-hm-tFt"/>
+                            <constraint firstItem="tc9-lI-bAq" firstAttribute="leading" secondItem="Luz-pQ-hf4" secondAttribute="leading" id="z7q-hx-nk6"/>
                             <constraint firstAttribute="trailing" secondItem="OzP-tr-Vdo" secondAttribute="trailing" id="zeL-9A-bfz"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FKY-p5-RF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6681" y="427"/>
+            <point key="canvasLocation" x="6680.8000000000002" y="425.93703148425789"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="W6s-6t-ufr">
@@ -1371,9 +1382,26 @@ Not the most fun one, but important to know!</string>
                                     <constraint firstAttribute="width" constant="55" id="6RB-eV-rkF"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kwc-IZ-cvl">
+                                <rect key="frame" x="55" y="270" width="265" height="247"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cam" translatesAutoresizingMaskIntoConstraints="NO" id="c1D-ro-wyF">
+                                        <rect key="frame" x="16" y="0.0" width="233" height="247"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="c1D-ro-wyF" secondAttribute="bottom" id="9PP-Yu-Xxk"/>
+                                    <constraint firstAttribute="trailing" secondItem="c1D-ro-wyF" secondAttribute="trailing" constant="16" id="EFF-kj-2yd"/>
+                                    <constraint firstItem="c1D-ro-wyF" firstAttribute="leading" secondItem="Kwc-IZ-cvl" secondAttribute="leading" constant="16" id="dPa-2p-EnW"/>
+                                    <constraint firstItem="c1D-ro-wyF" firstAttribute="top" secondItem="Kwc-IZ-cvl" secondAttribute="top" id="u9f-JZ-BvP"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="oWt-mN-WzZ" firstAttribute="top" secondItem="Kwc-IZ-cvl" secondAttribute="bottom" id="2Ya-qX-bvp"/>
+                            <constraint firstItem="dA7-KP-Gxj" firstAttribute="leading" secondItem="Kwc-IZ-cvl" secondAttribute="trailing" id="A1Z-dj-qcL"/>
                             <constraint firstItem="oWt-mN-WzZ" firstAttribute="leading" secondItem="eOh-IB-oDi" secondAttribute="leading" id="BUf-4N-lAg"/>
                             <constraint firstAttribute="trailing" secondItem="nUQ-iV-pNI" secondAttribute="trailing" id="BlG-NN-v2O"/>
                             <constraint firstItem="oWt-mN-WzZ" firstAttribute="top" secondItem="dau-nV-b9f" secondAttribute="bottom" id="CCn-DW-9zF"/>
@@ -1384,9 +1412,11 @@ Not the most fun one, but important to know!</string>
                             <constraint firstItem="kVT-US-2nQ" firstAttribute="top" secondItem="oWt-mN-WzZ" secondAttribute="bottom" id="Uhh-Be-kQU"/>
                             <constraint firstItem="Eq0-Re-CzF" firstAttribute="leading" secondItem="eOh-IB-oDi" secondAttribute="leading" id="W57-mo-Lkq"/>
                             <constraint firstAttribute="trailing" secondItem="Eq0-Re-CzF" secondAttribute="trailing" id="Whl-H5-4OY"/>
+                            <constraint firstItem="Kwc-IZ-cvl" firstAttribute="top" secondItem="Eq0-Re-CzF" secondAttribute="bottom" id="YxK-b4-oNd"/>
                             <constraint firstItem="nUQ-iV-pNI" firstAttribute="top" secondItem="126-at-m72" secondAttribute="bottom" id="ciS-as-4kx"/>
                             <constraint firstItem="dau-nV-b9f" firstAttribute="top" secondItem="Eq0-Re-CzF" secondAttribute="bottom" id="hRG-cl-Neq"/>
                             <constraint firstItem="Eq0-Re-CzF" firstAttribute="top" secondItem="nUQ-iV-pNI" secondAttribute="bottom" id="puz-sb-v0G"/>
+                            <constraint firstItem="Kwc-IZ-cvl" firstAttribute="leading" secondItem="dau-nV-b9f" secondAttribute="trailing" id="q1d-mD-Hju"/>
                             <constraint firstItem="oWt-mN-WzZ" firstAttribute="top" secondItem="dA7-KP-Gxj" secondAttribute="bottom" id="rb5-LK-g6M"/>
                             <constraint firstItem="dau-nV-b9f" firstAttribute="leading" secondItem="eOh-IB-oDi" secondAttribute="leading" id="zIh-2v-4ax"/>
                         </constraints>
@@ -1442,21 +1472,32 @@ Not the most fun one, but important to know!</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quoty" translatesAutoresizingMaskIntoConstraints="NO" id="p0o-wx-gaF">
+                                <rect key="frame" x="0.0" y="352" width="375" height="315"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="ct1-Hl-f1t"/>
+                                    <constraint firstAttribute="height" constant="315" id="i4E-Rj-PDm"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4qI-JC-4XM" firstAttribute="leading" secondItem="9eH-b6-lT4" secondAttribute="leading" constant="8" id="A9x-tc-Q7s"/>
+                            <constraint firstItem="zad-la-Aie" firstAttribute="top" secondItem="p0o-wx-gaF" secondAttribute="bottom" id="Fpr-mY-aG4"/>
                             <constraint firstAttribute="trailing" secondItem="uB1-F3-cdq" secondAttribute="trailing" id="KOh-ub-Jmt"/>
                             <constraint firstItem="uB1-F3-cdq" firstAttribute="top" secondItem="fPv-mb-inm" secondAttribute="bottom" id="PcJ-Hm-jAU"/>
+                            <constraint firstItem="p0o-wx-gaF" firstAttribute="leading" secondItem="9eH-b6-lT4" secondAttribute="leading" id="UuP-wQ-sb0"/>
+                            <constraint firstAttribute="trailing" secondItem="p0o-wx-gaF" secondAttribute="trailing" id="aoN-Ff-Ncz"/>
                             <constraint firstAttribute="trailing" secondItem="4qI-JC-4XM" secondAttribute="trailing" constant="8" id="hwp-Et-8ix"/>
                             <constraint firstItem="uB1-F3-cdq" firstAttribute="leading" secondItem="9eH-b6-lT4" secondAttribute="leading" id="sjP-U2-bXl"/>
                             <constraint firstItem="4qI-JC-4XM" firstAttribute="top" secondItem="uB1-F3-cdq" secondAttribute="bottom" constant="16" id="uBL-6d-UD0"/>
+                            <constraint firstItem="p0o-wx-gaF" firstAttribute="top" secondItem="4qI-JC-4XM" secondAttribute="bottom" constant="7" id="yK2-al-F22"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpY-MN-Th5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8297" y="427"/>
+            <point key="canvasLocation" x="8296.7999999999993" y="425.93703148425789"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qva-n6-WIB">
@@ -1517,12 +1558,60 @@ Not the most fun one, but important to know!</string>
                                     <constraint firstItem="SnU-SW-7Hh" firstAttribute="leading" secondItem="PjD-Wb-7oR" secondAttribute="leading" constant="8" id="yCd-dk-hYH"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shuttle" translatesAutoresizingMaskIntoConstraints="NO" id="71J-tG-3XZ">
+                                <rect key="frame" x="40" y="567" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Vx9-rU-9hx"/>
+                                    <constraint firstAttribute="width" constant="80" id="n3k-gm-IwM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alien3" translatesAutoresizingMaskIntoConstraints="NO" id="7MV-nV-t99">
+                                <rect key="frame" x="265" y="490" width="90" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="9L8-rw-rb9"/>
+                                    <constraint firstAttribute="height" constant="70" id="YfO-9A-jrR"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0gU-LI-wjm">
+                                <rect key="frame" x="0.0" y="120" width="375" height="112"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alien" translatesAutoresizingMaskIntoConstraints="NO" id="lt5-gA-TpW">
+                                        <rect key="frame" x="70" y="21" width="90" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="1Pg-zV-IlR"/>
+                                            <constraint firstAttribute="width" constant="90" id="8w0-mc-m0D"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alien2" translatesAutoresizingMaskIntoConstraints="NO" id="E5l-01-Ejx">
+                                        <rect key="frame" x="245" y="64" width="60" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="9i0-9a-Uzm"/>
+                                            <constraint firstAttribute="height" constant="40" id="mkQ-3F-Vda"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="lt5-gA-TpW" firstAttribute="centerY" secondItem="0gU-LI-wjm" secondAttribute="centerY" id="FxK-vi-XXJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="E5l-01-Ejx" secondAttribute="bottom" constant="8" id="Yud-Pe-Qi9"/>
+                                    <constraint firstAttribute="trailing" secondItem="E5l-01-Ejx" secondAttribute="trailing" constant="70" id="c1K-le-jno"/>
+                                    <constraint firstItem="lt5-gA-TpW" firstAttribute="leading" secondItem="0gU-LI-wjm" secondAttribute="leading" constant="70" id="pZ7-f0-3b1"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="0gU-LI-wjm" firstAttribute="top" secondItem="aVo-PO-kGN" secondAttribute="bottom" id="0D9-tj-Yzj"/>
                             <constraint firstItem="PjD-Wb-7oR" firstAttribute="top" secondItem="4pX-0n-sFn" secondAttribute="bottom" constant="120" id="0jO-hJ-IdI"/>
+                            <constraint firstItem="PjD-Wb-7oR" firstAttribute="top" secondItem="0gU-LI-wjm" secondAttribute="bottom" id="5GC-bH-lEM"/>
+                            <constraint firstAttribute="trailing" secondItem="7MV-nV-t99" secondAttribute="trailing" constant="20" id="6cD-bK-Jsj"/>
+                            <constraint firstItem="0gU-LI-wjm" firstAttribute="leading" secondItem="oTF-8m-IWo" secondAttribute="leading" id="7xt-Br-tSL"/>
                             <constraint firstItem="aVo-PO-kGN" firstAttribute="leading" secondItem="oTF-8m-IWo" secondAttribute="leading" id="MEC-KD-R0X"/>
+                            <constraint firstItem="71J-tG-3XZ" firstAttribute="leading" secondItem="oTF-8m-IWo" secondAttribute="leadingMargin" constant="24" id="NzV-sH-FTe"/>
+                            <constraint firstAttribute="trailing" secondItem="0gU-LI-wjm" secondAttribute="trailing" id="SoV-A9-K6e"/>
+                            <constraint firstItem="7MV-nV-t99" firstAttribute="top" secondItem="PjD-Wb-7oR" secondAttribute="bottom" constant="8" id="Y9N-Nz-s3X"/>
                             <constraint firstAttribute="trailing" secondItem="PjD-Wb-7oR" secondAttribute="trailing" id="YdR-a2-jSY"/>
+                            <constraint firstItem="e47-OT-q4b" firstAttribute="top" secondItem="71J-tG-3XZ" secondAttribute="bottom" constant="20" id="aTx-5a-u3e"/>
                             <constraint firstItem="aVo-PO-kGN" firstAttribute="top" secondItem="o2p-BU-ese" secondAttribute="bottom" id="gOw-hs-UJ0"/>
                             <constraint firstAttribute="trailing" secondItem="aVo-PO-kGN" secondAttribute="trailing" id="ywp-P8-GJV"/>
                             <constraint firstItem="PjD-Wb-7oR" firstAttribute="leading" secondItem="oTF-8m-IWo" secondAttribute="leading" id="z7b-K7-LH6"/>
@@ -1531,7 +1620,7 @@ Not the most fun one, but important to know!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A7E-f7-WT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9061.6000000000004" y="426.83658170914543"/>
+            <point key="canvasLocation" x="9061.6000000000004" y="425.93703148425789"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3bM-s0-n0l">
@@ -1713,11 +1802,18 @@ With this simple timer, I was diving in the world of notifications and the new l
         </scene>
     </scenes>
     <resources>
+        <image name="alien" width="120" height="90"/>
+        <image name="alien2" width="120" height="87"/>
+        <image name="alien3" width="120" height="90"/>
         <image name="bitcoin" width="512" height="512"/>
+        <image name="book" width="904" height="910"/>
+        <image name="cam" width="626" height="501"/>
         <image name="globe" width="200" height="200"/>
         <image name="hexhex" width="746" height="1326"/>
         <image name="microphone" width="800" height="1622"/>
         <image name="quote-machine" width="2112" height="584"/>
+        <image name="quoty" width="744" height="1320"/>
+        <image name="shuttle" width="135" height="132"/>
         <image name="sun" width="512" height="512"/>
         <image name="timer" width="512" height="512"/>
         <image name="wiki" width="2338" height="1208"/>
