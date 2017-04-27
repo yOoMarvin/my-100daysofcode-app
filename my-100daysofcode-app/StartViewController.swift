@@ -13,6 +13,7 @@ class StartViewController: UIViewController {
     
     @IBOutlet weak var webProjectsButton: UIButton!
     @IBOutlet weak var appProjectsButton: UIButton!
+    @IBOutlet weak var thoughtsButton: UIButton!
     
     
     
@@ -31,6 +32,7 @@ class StartViewController: UIViewController {
         // make buttons round
         webProjectsButton.layer.cornerRadius = 0.5 * webProjectsButton.bounds.size.width
         appProjectsButton.layer.cornerRadius = 0.5 * appProjectsButton.bounds.size.width
+        thoughtsButton.layer.cornerRadius = 0.5 * thoughtsButton.bounds.size.width
         
     }
 

@@ -20,14 +20,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1750"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fk1-5V-JcO">
-                                <rect key="frame" x="0.0" y="64" width="375" height="1686"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="1836"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWc-kT-dWB" userLabel="ContainerView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1750"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1900"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAL-ls-agU" userLabel="TitleView">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
@@ -300,7 +300,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CO2-Ur-E0b" userLabel="ThankYouView">
-                                                <rect key="frame" x="0.0" y="1450" width="375" height="300"/>
+                                                <rect key="frame" x="0.0" y="1450" width="375" height="450"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 days of code" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88W-Gv-JyD">
                                                         <rect key="frame" x="8" y="24" width="359" height="44"/>
@@ -309,10 +309,10 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCr-1s-RRa">
-                                                        <rect key="frame" x="97.5" y="118" width="180" height="80"/>
+                                                        <rect key="frame" x="97.5" y="118" width="180" height="180"/>
                                                         <color key="backgroundColor" red="0.74446094039999999" green="0.86367416379999995" blue="0.2233695537" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="80" id="FgF-bn-iXR"/>
+                                                            <constraint firstAttribute="height" constant="180" id="FgF-bn-iXR"/>
                                                             <constraint firstAttribute="width" constant="180" id="eE8-NW-09X"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="32"/>
@@ -347,7 +347,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                                             <constraint firstItem="deM-Ux-uHN" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="Hko-dn-SYU"/>
                                             <constraint firstAttribute="trailing" secondItem="UAL-ls-agU" secondAttribute="trailing" id="HoY-Ig-XJP"/>
                                             <constraint firstAttribute="bottom" secondItem="CO2-Ur-E0b" secondAttribute="bottom" id="I3Q-EW-6xx"/>
-                                            <constraint firstAttribute="height" constant="1750" id="ID4-1x-2mE"/>
+                                            <constraint firstAttribute="height" constant="1900" id="ID4-1x-2mE"/>
                                             <constraint firstAttribute="trailing" secondItem="4R2-3b-Wti" secondAttribute="trailing" id="Jyt-tP-MCA"/>
                                             <constraint firstItem="CO2-Ur-E0b" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="LPE-v6-YzY"/>
                                             <constraint firstItem="KxC-b9-Rvm" firstAttribute="top" secondItem="JbY-Zo-riP" secondAttribute="bottom" id="Me0-2o-g7v"/>
@@ -399,9 +399,10 @@ So I sat down almost every day and coded some of these little projects…</strin
                     </view>
                     <navigationItem key="navigationItem" id="FI1-t7-34F"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="1750"/>
+                    <size key="freeformSize" width="375" height="1900"/>
                     <connections>
                         <outlet property="appProjectsButton" destination="zSp-4R-ETU" id="IZ1-zC-lXX"/>
+                        <outlet property="thoughtsButton" destination="oCr-1s-RRa" id="r74-5i-qpG"/>
                         <outlet property="webProjectsButton" destination="SPP-VE-k6o" id="sPD-9R-MX7"/>
                     </connections>
                 </viewController>
