@@ -28,7 +28,8 @@ class WebProjectsPageViewController: UIPageViewController {
     
     
     private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [self.newProjectViewController(subname: "WebProjectOne"),
+        return [self.newProjectViewController(subname: "InitWebProject"),
+                self.newProjectViewController(subname: "WebProjectOne"),
                 self.newProjectViewController(subname: "WebProjectTwo"),
                 self.newProjectViewController(subname: "WebProjectThree"),
                 self.newProjectViewController(subname: "WebProjectFour"),
