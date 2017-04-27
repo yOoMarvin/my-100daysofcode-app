@@ -1398,15 +1398,15 @@ Not the most fun one, but important to know!</string>
                                 <rect key="frame" x="55" y="270" width="265" height="247"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cam" translatesAutoresizingMaskIntoConstraints="NO" id="c1D-ro-wyF">
-                                        <rect key="frame" x="16" y="0.0" width="233" height="247"/>
+                                        <rect key="frame" x="32" y="32" width="201" height="183"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="c1D-ro-wyF" secondAttribute="bottom" id="9PP-Yu-Xxk"/>
-                                    <constraint firstAttribute="trailing" secondItem="c1D-ro-wyF" secondAttribute="trailing" constant="16" id="EFF-kj-2yd"/>
-                                    <constraint firstItem="c1D-ro-wyF" firstAttribute="leading" secondItem="Kwc-IZ-cvl" secondAttribute="leading" constant="16" id="dPa-2p-EnW"/>
-                                    <constraint firstItem="c1D-ro-wyF" firstAttribute="top" secondItem="Kwc-IZ-cvl" secondAttribute="top" id="u9f-JZ-BvP"/>
+                                    <constraint firstAttribute="bottom" secondItem="c1D-ro-wyF" secondAttribute="bottom" constant="32" id="9PP-Yu-Xxk"/>
+                                    <constraint firstAttribute="trailing" secondItem="c1D-ro-wyF" secondAttribute="trailing" constant="32" id="EFF-kj-2yd"/>
+                                    <constraint firstItem="c1D-ro-wyF" firstAttribute="leading" secondItem="Kwc-IZ-cvl" secondAttribute="leading" constant="32" id="dPa-2p-EnW"/>
+                                    <constraint firstItem="c1D-ro-wyF" firstAttribute="top" secondItem="Kwc-IZ-cvl" secondAttribute="top" constant="32" id="u9f-JZ-BvP"/>
                                 </constraints>
                             </view>
                         </subviews>

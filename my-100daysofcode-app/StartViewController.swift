@@ -28,8 +28,8 @@ class StartViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // make buttons round
         webProjectsButton.layer.cornerRadius = 0.5 * webProjectsButton.bounds.size.width
-        
         appProjectsButton.layer.cornerRadius = 0.5 * appProjectsButton.bounds.size.width
         
     }
