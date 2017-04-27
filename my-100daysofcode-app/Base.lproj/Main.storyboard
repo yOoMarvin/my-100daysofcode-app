@@ -20,14 +20,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1750"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fk1-5V-JcO">
-                                <rect key="frame" x="0.0" y="64" width="375" height="1436"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="1686"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWc-kT-dWB" userLabel="ContainerView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1750"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UAL-ls-agU" userLabel="TitleView">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
@@ -273,7 +273,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ibg-he-FnT" userLabel="NameView">
-                                                <rect key="frame" x="0.0" y="1250" width="375" height="250"/>
+                                                <rect key="frame" x="0.0" y="1250" width="375" height="200"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="coded by" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfD-Iq-aVF">
                                                         <rect key="frame" x="8" y="24" width="359" height="33"/>
@@ -296,11 +296,44 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                     <constraint firstItem="tfD-Iq-aVF" firstAttribute="top" secondItem="Ibg-he-FnT" secondAttribute="top" constant="24" id="bEr-17-CWb"/>
                                                     <constraint firstAttribute="trailing" secondItem="tfD-Iq-aVF" secondAttribute="trailing" constant="8" id="hn4-Kl-KjE"/>
                                                     <constraint firstItem="tfD-Iq-aVF" firstAttribute="leading" secondItem="Ibg-he-FnT" secondAttribute="leading" constant="8" id="jSO-G7-lDV"/>
+                                                    <constraint firstAttribute="height" constant="200" id="lvK-9H-Z59"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CO2-Ur-E0b" userLabel="ThankYouView">
+                                                <rect key="frame" x="0.0" y="1450" width="375" height="300"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 days of code" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88W-Gv-JyD">
+                                                        <rect key="frame" x="8" y="24" width="359" height="44"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="32"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCr-1s-RRa">
+                                                        <rect key="frame" x="97.5" y="118" width="180" height="80"/>
+                                                        <color key="backgroundColor" red="0.74446094039999999" green="0.86367416379999995" blue="0.2233695537" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="80" id="FgF-bn-iXR"/>
+                                                            <constraint firstAttribute="width" constant="180" id="eE8-NW-09X"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="32"/>
+                                                        <state key="normal" title="thoughts">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="oCr-1s-RRa" firstAttribute="top" secondItem="88W-Gv-JyD" secondAttribute="bottom" constant="50" id="Agh-ch-MMQ"/>
+                                                    <constraint firstAttribute="trailing" secondItem="88W-Gv-JyD" secondAttribute="trailing" constant="8" id="fFG-Ln-Adc"/>
+                                                    <constraint firstItem="oCr-1s-RRa" firstAttribute="centerX" secondItem="CO2-Ur-E0b" secondAttribute="centerX" id="tM4-UZ-36z"/>
+                                                    <constraint firstItem="88W-Gv-JyD" firstAttribute="leading" secondItem="CO2-Ur-E0b" secondAttribute="leading" constant="8" id="v9P-tS-NiD"/>
+                                                    <constraint firstItem="88W-Gv-JyD" firstAttribute="top" secondItem="CO2-Ur-E0b" secondAttribute="top" constant="24" id="xeu-hI-zWn"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="TMs-Jg-kdO" secondAttribute="trailing" id="138-pE-e3j"/>
                                             <constraint firstItem="TMs-Jg-kdO" firstAttribute="top" secondItem="4R2-3b-Wti" secondAttribute="bottom" id="7SS-b9-RvO"/>
                                             <constraint firstItem="NN3-SM-36w" firstAttribute="top" secondItem="UAL-ls-agU" secondAttribute="bottom" id="9Ai-lZ-4eL"/>
                                             <constraint firstAttribute="trailing" secondItem="TMs-Jg-kdO" secondAttribute="trailing" id="9F4-UA-kCO"/>
@@ -308,19 +341,22 @@ So I sat down almost every day and coded some of these little projects…</strin
                                             <constraint firstItem="JbY-Zo-riP" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="B3w-Og-wmr"/>
                                             <constraint firstItem="NId-Rm-HVb" firstAttribute="top" secondItem="UAL-ls-agU" secondAttribute="bottom" id="DAt-eW-leV"/>
                                             <constraint firstItem="94s-ou-PYb" firstAttribute="top" secondItem="WPV-GX-1Cw" secondAttribute="bottom" id="EyO-pM-sBQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="CO2-Ur-E0b" secondAttribute="trailing" id="Fnw-i5-NrJ"/>
                                             <constraint firstItem="JbY-Zo-riP" firstAttribute="top" secondItem="WPV-GX-1Cw" secondAttribute="bottom" id="GBu-X9-juw"/>
                                             <constraint firstItem="JbY-Zo-riP" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="HTf-LZ-FTM"/>
                                             <constraint firstItem="deM-Ux-uHN" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="Hko-dn-SYU"/>
                                             <constraint firstAttribute="trailing" secondItem="UAL-ls-agU" secondAttribute="trailing" id="HoY-Ig-XJP"/>
-                                            <constraint firstAttribute="height" constant="1500" id="ID4-1x-2mE"/>
+                                            <constraint firstAttribute="bottom" secondItem="CO2-Ur-E0b" secondAttribute="bottom" id="I3Q-EW-6xx"/>
+                                            <constraint firstAttribute="height" constant="1750" id="ID4-1x-2mE"/>
                                             <constraint firstAttribute="trailing" secondItem="4R2-3b-Wti" secondAttribute="trailing" id="Jyt-tP-MCA"/>
-                                            <constraint firstAttribute="bottom" secondItem="Ibg-he-FnT" secondAttribute="bottom" id="LlH-DW-8UR"/>
+                                            <constraint firstItem="CO2-Ur-E0b" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="LPE-v6-YzY"/>
                                             <constraint firstItem="KxC-b9-Rvm" firstAttribute="top" secondItem="JbY-Zo-riP" secondAttribute="bottom" id="Me0-2o-g7v"/>
                                             <constraint firstItem="deM-Ux-uHN" firstAttribute="top" secondItem="4R2-3b-Wti" secondAttribute="bottom" id="NMM-Hz-iaQ"/>
                                             <constraint firstItem="4R2-3b-Wti" firstAttribute="top" secondItem="3HU-Pn-XWg" secondAttribute="bottom" id="NOe-RR-psj"/>
                                             <constraint firstAttribute="trailing" secondItem="NId-Rm-HVb" secondAttribute="trailing" id="NhS-op-viE"/>
                                             <constraint firstItem="Ibg-he-FnT" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="PaX-rg-aiP"/>
                                             <constraint firstItem="NId-Rm-HVb" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="Pxe-uI-Agv"/>
+                                            <constraint firstItem="TMs-Jg-kdO" firstAttribute="leading" secondItem="deM-Ux-uHN" secondAttribute="trailing" id="R2g-Gz-s0w"/>
                                             <constraint firstItem="UAL-ls-agU" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="TSy-c9-y7o"/>
                                             <constraint firstAttribute="trailing" secondItem="94s-ou-PYb" secondAttribute="trailing" id="WYf-wV-nK1"/>
                                             <constraint firstItem="KxC-b9-Rvm" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="XWn-Ba-wqb"/>
@@ -330,13 +366,15 @@ So I sat down almost every day and coded some of these little projects…</strin
                                             <constraint firstAttribute="trailing" secondItem="WPV-GX-1Cw" secondAttribute="trailing" id="aUa-nT-r8Z"/>
                                             <constraint firstItem="NN3-SM-36w" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="alc-eI-AXI"/>
                                             <constraint firstItem="Ibg-he-FnT" firstAttribute="top" secondItem="TMs-Jg-kdO" secondAttribute="bottom" id="cmn-Up-bVb"/>
-                                            <constraint firstItem="TMs-Jg-kdO" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="dMf-Ml-KHF"/>
                                             <constraint firstItem="NN3-SM-36w" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="eW3-Ba-bbL"/>
                                             <constraint firstAttribute="trailing" secondItem="3HU-Pn-XWg" secondAttribute="trailing" id="fuc-bF-kni"/>
+                                            <constraint firstItem="TMs-Jg-kdO" firstAttribute="top" secondItem="4R2-3b-Wti" secondAttribute="bottom" id="hU2-Oj-YnR"/>
                                             <constraint firstItem="KxC-b9-Rvm" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="hkW-2H-gmt"/>
                                             <constraint firstItem="3HU-Pn-XWg" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="mDq-65-DMK"/>
+                                            <constraint firstItem="Ibg-he-FnT" firstAttribute="top" secondItem="TMs-Jg-kdO" secondAttribute="bottom" id="oZC-44-K78"/>
                                             <constraint firstItem="94s-ou-PYb" firstAttribute="width" secondItem="HWc-kT-dWB" secondAttribute="width" multiplier="1:2" id="owL-Bf-RrJ"/>
                                             <constraint firstItem="deM-Ux-uHN" firstAttribute="leading" secondItem="HWc-kT-dWB" secondAttribute="leading" id="tvM-Hb-cyJ"/>
+                                            <constraint firstItem="CO2-Ur-E0b" firstAttribute="top" secondItem="Ibg-he-FnT" secondAttribute="bottom" id="usH-3s-7xR"/>
                                             <constraint firstItem="UAL-ls-agU" firstAttribute="top" secondItem="HWc-kT-dWB" secondAttribute="top" id="xLi-0r-fi9"/>
                                             <constraint firstItem="3HU-Pn-XWg" firstAttribute="top" secondItem="94s-ou-PYb" secondAttribute="bottom" id="xvl-gp-7Jv"/>
                                         </constraints>
@@ -361,7 +399,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                     </view>
                     <navigationItem key="navigationItem" id="FI1-t7-34F"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="1500"/>
+                    <size key="freeformSize" width="375" height="1750"/>
                     <connections>
                         <outlet property="appProjectsButton" destination="zSp-4R-ETU" id="IZ1-zC-lXX"/>
                         <outlet property="webProjectsButton" destination="SPP-VE-k6o" id="sPD-9R-MX7"/>
