@@ -287,16 +287,27 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efx-er-WdI">
+                                                        <rect key="frame" x="8" y="132" width="60" height="60"/>
+                                                        <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="60" id="UrG-Vl-2jT"/>
+                                                            <constraint firstAttribute="height" constant="60" id="erR-3z-19p"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button" image="twitter"/>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstItem="tlf-uE-9W1" firstAttribute="leading" secondItem="Ibg-he-FnT" secondAttribute="leading" constant="8" id="2fP-Pv-Eid"/>
+                                                    <constraint firstItem="efx-er-WdI" firstAttribute="leading" secondItem="Ibg-he-FnT" secondAttribute="leading" constant="8" id="7Kh-sp-IZK"/>
                                                     <constraint firstItem="tlf-uE-9W1" firstAttribute="top" secondItem="tfD-Iq-aVF" secondAttribute="bottom" constant="8" id="CNZ-Jd-kEC"/>
                                                     <constraint firstAttribute="trailing" secondItem="tlf-uE-9W1" secondAttribute="trailing" constant="8" id="LVJ-Su-5yY"/>
                                                     <constraint firstItem="tfD-Iq-aVF" firstAttribute="top" secondItem="Ibg-he-FnT" secondAttribute="top" constant="24" id="bEr-17-CWb"/>
                                                     <constraint firstAttribute="trailing" secondItem="tfD-Iq-aVF" secondAttribute="trailing" constant="8" id="hn4-Kl-KjE"/>
                                                     <constraint firstItem="tfD-Iq-aVF" firstAttribute="leading" secondItem="Ibg-he-FnT" secondAttribute="leading" constant="8" id="jSO-G7-lDV"/>
                                                     <constraint firstAttribute="height" constant="200" id="lvK-9H-Z59"/>
+                                                    <constraint firstAttribute="bottom" secondItem="efx-er-WdI" secondAttribute="bottom" constant="8" id="nTN-l5-p91"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CO2-Ur-E0b" userLabel="ThankYouView">
@@ -406,6 +417,8 @@ So I sat down almost every day and coded some of these little projects…</strin
                     <connections>
                         <outlet property="appProjectsButton" destination="zSp-4R-ETU" id="IZ1-zC-lXX"/>
                         <outlet property="thoughtsButton" destination="oCr-1s-RRa" id="r74-5i-qpG"/>
+                        <outlet property="twitterButton" destination="efx-er-WdI" id="IZB-W7-o0a"/>
+                        <outlet property="twitterButtonTapped" destination="efx-er-WdI" id="rLB-Yk-dkC"/>
                         <outlet property="webProjectsButton" destination="SPP-VE-k6o" id="sPD-9R-MX7"/>
                     </connections>
                 </viewController>
@@ -2315,6 +2328,7 @@ With this simple timer, I was diving in the world of notifications and the new l
         <image name="shuttle" width="135" height="132"/>
         <image name="sun" width="512" height="512"/>
         <image name="timer" width="512" height="512"/>
+        <image name="twitter" width="512" height="512"/>
         <image name="wiki" width="2338" height="1208"/>
     </resources>
 </document>

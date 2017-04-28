@@ -14,7 +14,7 @@ class StartViewController: UIViewController {
     @IBOutlet weak var webProjectsButton: UIButton!
     @IBOutlet weak var appProjectsButton: UIButton!
     @IBOutlet weak var thoughtsButton: UIButton!
-    
+    @IBOutlet weak var twitterButton: UIButton!
     
     
     
@@ -34,8 +34,13 @@ class StartViewController: UIViewController {
         appProjectsButton.layer.cornerRadius = 0.5 * appProjectsButton.bounds.size.width
         thoughtsButton.layer.cornerRadius = 0.5 * thoughtsButton.bounds.size.width
         
+        twitterButton.titleEdgeInsets = UIEdgeInsetsMake(20, 20, 20, 20)
+        twitterButton.contentEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10)
+        twitterButton.layer.cornerRadius = 0.5 * twitterButton.bounds.size.width
+        
     }
 
+    @IBOutlet weak var twitterButtonTapped: UIButton!
     
 
 }
