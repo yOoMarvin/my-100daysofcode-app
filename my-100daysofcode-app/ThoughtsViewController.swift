@@ -10,10 +10,14 @@ import UIKit
 
 class ThoughtsViewController: UIViewController {
 
+    @IBOutlet weak var roundTextButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        roundTextButton.layer.cornerRadius = 0.5 * roundTextButton.bounds.size.width
+        roundTextButton.clipsToBounds = true
+
     }
 
 

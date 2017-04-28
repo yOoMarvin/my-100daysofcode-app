@@ -1102,32 +1102,24 @@ But apart from all that coding stuff I also learned a lot about myself and act o
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tqd-uy-JtD">
                                                 <rect key="frame" x="0.0" y="1100" width="375" height="200"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sql-X6-rSP">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGc-4B-jmT">
                                                         <rect key="frame" x="137" y="50" width="100" height="100"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqu-lq-Hr0">
-                                                                <rect key="frame" x="8" y="8" width="84" height="84"/>
-                                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
-                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
                                                         <color key="backgroundColor" red="0.12343573569999999" green="0.54234087470000003" blue="0.4392843246" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="100" id="21O-ei-35D"/>
-                                                            <constraint firstItem="Yqu-lq-Hr0" firstAttribute="leading" secondItem="sql-X6-rSP" secondAttribute="leading" constant="8" id="FAl-zt-24L"/>
-                                                            <constraint firstItem="Yqu-lq-Hr0" firstAttribute="top" secondItem="sql-X6-rSP" secondAttribute="top" constant="8" id="KvP-dN-CvG"/>
-                                                            <constraint firstAttribute="bottom" secondItem="Yqu-lq-Hr0" secondAttribute="bottom" constant="8" id="e9Y-sG-mj0"/>
-                                                            <constraint firstAttribute="height" constant="100" id="pL1-I7-3Jd"/>
-                                                            <constraint firstAttribute="trailing" secondItem="Yqu-lq-Hr0" secondAttribute="trailing" constant="8" id="zSm-a3-oV3"/>
+                                                            <constraint firstAttribute="width" constant="100" id="Qv7-gj-CUx"/>
+                                                            <constraint firstAttribute="height" constant="100" id="fXb-6w-Bak"/>
                                                         </constraints>
-                                                    </view>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="32"/>
+                                                        <state key="normal" title="100">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.74446094039999999" green="0.86367416379999995" blue="0.2233695537" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="51W-Zd-aYk"/>
-                                                    <constraint firstItem="sql-X6-rSP" firstAttribute="centerY" secondItem="tqd-uy-JtD" secondAttribute="centerY" id="CH0-Ua-uY3"/>
-                                                    <constraint firstItem="sql-X6-rSP" firstAttribute="centerX" secondItem="tqd-uy-JtD" secondAttribute="centerX" id="ftw-FS-85n"/>
+                                                    <constraint firstItem="vGc-4B-jmT" firstAttribute="centerX" secondItem="tqd-uy-JtD" secondAttribute="centerX" id="cZP-zL-woY"/>
+                                                    <constraint firstItem="vGc-4B-jmT" firstAttribute="centerY" secondItem="tqd-uy-JtD" secondAttribute="centerY" id="rTf-4w-voH"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QuS-yR-ezD">
@@ -1241,6 +1233,9 @@ But apart from all that coding stuff I also learned a lot about myself and act o
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="2000"/>
+                    <connections>
+                        <outlet property="roundTextButton" destination="vGc-4B-jmT" id="0ly-Ix-gVs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0TO-hy-6tz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
