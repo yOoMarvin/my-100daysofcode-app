@@ -49,6 +49,9 @@ class StartViewController: UIViewController {
     
     //Actions for WebView
     @IBAction func twitterButtonTapped(_ sender: Any) {
+        if let url = URL(string: "http://twitter.com/yoomarvin") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
     }
     
     @IBAction func githubButtonTapped(_ sender: Any) {
