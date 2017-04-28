@@ -967,7 +967,7 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
                                 <rect key="frame" x="0.0" y="64" width="375" height="1936"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HdZ-zO-jsW" userLabel="ContainerView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="2000"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66c-uK-ss1">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
@@ -1083,8 +1083,8 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24Z-ir-dgW">
                                                         <rect key="frame" x="8" y="0.0" width="359" height="500"/>
-                                                        <mutableString key="text">I learned so many things here! I refreshed basically all my web development knowledge, got to know Node.js, an awesome technology and I’m now really comfortable with Swift and iOS development. That part was so much fun! 100%, I will do even more here. I sat my goal on developing an awesome little app or a game and publish at in the App Store. That would be so great!
-But apart from all that coding stuff I also learned a lot about myself and act of starting things. All the time I had awesome ideas in the back of my head, but I never started them. But in the last 100 days, I totally lost that. I just lost that fear of starting something. There is an awesome quote that says, if you aren’t ashamed of your first version of the product, you are too late. This is what thrives me now. Just start the things. Build it. Do it. The rest will come. </mutableString>
+                                                        <string key="text">I learned so many things here! I refreshed basically all my web development knowledge, got to know Node.js, an awesome technology and I’m now really comfortable with Swift and iOS development. That part was so much fun! 100%, I will do even more here. I sat my goal on developing an awesome little app or a game and publish at in the App Store. That would be so great!
+But apart from all that coding stuff I also learned a lot about myself and act of starting things. All the time I had awesome ideas in the back of my head, but I never started them. But in the last 100 days, I totally lost that. I just lost that fear of starting something. There is an awesome quote that says, if you aren’t ashamed of your first version of the product, you are too late. This is what thrives me now. Just start the things. Build it. Do it. The rest will come. </string>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -1223,7 +1223,7 @@ But apart from all that coding stuff I also learned a lot about myself and act o
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="HdZ-zO-jsW" firstAttribute="top" secondItem="yUZ-4w-O1y" secondAttribute="top" id="IAt-IR-9It"/>
+                                    <constraint firstItem="HdZ-zO-jsW" firstAttribute="top" secondItem="yUZ-4w-O1y" secondAttribute="top" constant="-64" id="IAt-IR-9It"/>
                                     <constraint firstAttribute="bottom" secondItem="HdZ-zO-jsW" secondAttribute="bottom" id="LEF-oi-vjG"/>
                                     <constraint firstItem="HdZ-zO-jsW" firstAttribute="leading" secondItem="yUZ-4w-O1y" secondAttribute="leading" id="Xzu-b7-u0K"/>
                                     <constraint firstAttribute="trailing" secondItem="HdZ-zO-jsW" secondAttribute="trailing" id="a57-p4-Zqt"/>
