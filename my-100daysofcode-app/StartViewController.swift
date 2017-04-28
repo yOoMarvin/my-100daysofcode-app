@@ -15,6 +15,7 @@ class StartViewController: UIViewController {
     @IBOutlet weak var appProjectsButton: UIButton!
     @IBOutlet weak var thoughtsButton: UIButton!
     @IBOutlet weak var twitterButton: UIButton!
+    @IBOutlet weak var githubButton: UIButton!
     
     
     
@@ -34,14 +35,24 @@ class StartViewController: UIViewController {
         appProjectsButton.layer.cornerRadius = 0.5 * appProjectsButton.bounds.size.width
         thoughtsButton.layer.cornerRadius = 0.5 * thoughtsButton.bounds.size.width
         
+        //round buttons for twitter and github with "padding"
         twitterButton.titleEdgeInsets = UIEdgeInsetsMake(20, 20, 20, 20)
         twitterButton.contentEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10)
         twitterButton.layer.cornerRadius = 0.5 * twitterButton.bounds.size.width
         
+        githubButton.titleEdgeInsets = UIEdgeInsetsMake(20, 20, 20, 20)
+        githubButton.contentEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10)
+        githubButton.layer.cornerRadius = 0.5 * githubButton.bounds.size.width
+        
     }
-
-    @IBOutlet weak var twitterButtonTapped: UIButton!
     
+    
+    //Actions for WebView
+    @IBAction func twitterButtonTapped(_ sender: Any) {
+    }
+    
+    @IBAction func githubButtonTapped(_ sender: Any) {
+    }
 
 }
 

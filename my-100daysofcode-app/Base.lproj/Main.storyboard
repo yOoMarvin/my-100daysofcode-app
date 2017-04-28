@@ -288,13 +288,28 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efx-er-WdI">
-                                                        <rect key="frame" x="8" y="132" width="60" height="60"/>
+                                                        <rect key="frame" x="8" y="122" width="70" height="70"/>
                                                         <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="60" id="UrG-Vl-2jT"/>
-                                                            <constraint firstAttribute="height" constant="60" id="erR-3z-19p"/>
+                                                            <constraint firstAttribute="width" constant="70" id="UrG-Vl-2jT"/>
+                                                            <constraint firstAttribute="height" constant="70" id="erR-3z-19p"/>
                                                         </constraints>
                                                         <state key="normal" title="Button" image="twitter"/>
+                                                        <connections>
+                                                            <action selector="twitterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mK8-Es-Pi5"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jeN-zG-Tm5">
+                                                        <rect key="frame" x="297" y="122" width="70" height="70"/>
+                                                        <color key="backgroundColor" red="0.0027718355409999998" green="0.26143038270000002" blue="0.34520104530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="70" id="V2x-Mv-lhv"/>
+                                                            <constraint firstAttribute="width" constant="70" id="cw8-mD-bBz"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button" image="github"/>
+                                                        <connections>
+                                                            <action selector="githubButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gxf-Fx-zkw"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.99904191490000005" green="0.88768267629999997" blue="0.1013288945" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -302,7 +317,9 @@ So I sat down almost every day and coded some of these little projects…</strin
                                                     <constraint firstItem="tlf-uE-9W1" firstAttribute="leading" secondItem="Ibg-he-FnT" secondAttribute="leading" constant="8" id="2fP-Pv-Eid"/>
                                                     <constraint firstItem="efx-er-WdI" firstAttribute="leading" secondItem="Ibg-he-FnT" secondAttribute="leading" constant="8" id="7Kh-sp-IZK"/>
                                                     <constraint firstItem="tlf-uE-9W1" firstAttribute="top" secondItem="tfD-Iq-aVF" secondAttribute="bottom" constant="8" id="CNZ-Jd-kEC"/>
+                                                    <constraint firstAttribute="trailing" secondItem="jeN-zG-Tm5" secondAttribute="trailing" constant="8" id="KgJ-y8-pEn"/>
                                                     <constraint firstAttribute="trailing" secondItem="tlf-uE-9W1" secondAttribute="trailing" constant="8" id="LVJ-Su-5yY"/>
+                                                    <constraint firstAttribute="bottom" secondItem="jeN-zG-Tm5" secondAttribute="bottom" constant="8" id="Tfk-DH-HeT"/>
                                                     <constraint firstItem="tfD-Iq-aVF" firstAttribute="top" secondItem="Ibg-he-FnT" secondAttribute="top" constant="24" id="bEr-17-CWb"/>
                                                     <constraint firstAttribute="trailing" secondItem="tfD-Iq-aVF" secondAttribute="trailing" constant="8" id="hn4-Kl-KjE"/>
                                                     <constraint firstItem="tfD-Iq-aVF" firstAttribute="leading" secondItem="Ibg-he-FnT" secondAttribute="leading" constant="8" id="jSO-G7-lDV"/>
@@ -416,9 +433,9 @@ So I sat down almost every day and coded some of these little projects…</strin
                     <size key="freeformSize" width="375" height="1900"/>
                     <connections>
                         <outlet property="appProjectsButton" destination="zSp-4R-ETU" id="IZ1-zC-lXX"/>
+                        <outlet property="githubButton" destination="jeN-zG-Tm5" id="eS4-6B-tuQ"/>
                         <outlet property="thoughtsButton" destination="oCr-1s-RRa" id="r74-5i-qpG"/>
                         <outlet property="twitterButton" destination="efx-er-WdI" id="IZB-W7-o0a"/>
-                        <outlet property="twitterButtonTapped" destination="efx-er-WdI" id="rLB-Yk-dkC"/>
                         <outlet property="webProjectsButton" destination="SPP-VE-k6o" id="sPD-9R-MX7"/>
                     </connections>
                 </viewController>
@@ -2320,6 +2337,7 @@ With this simple timer, I was diving in the world of notifications and the new l
         <image name="bitcoin" width="512" height="512"/>
         <image name="book" width="904" height="910"/>
         <image name="cam" width="626" height="501"/>
+        <image name="github" width="256" height="256"/>
         <image name="globe" width="200" height="200"/>
         <image name="hexhex" width="746" height="1326"/>
         <image name="microphone" width="800" height="1622"/>
