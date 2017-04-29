@@ -163,7 +163,7 @@ for 100 days</string>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciW-0N-bDw">
                                                         <rect key="frame" x="8" y="0.0" width="172" height="300"/>
-                                                        <string key="text">my main goal in that challenge was to overcome that feeling of fear when you want to start something. Don’t think about it, just do it. This is was what that challenge has tought me!
+                                                        <string key="text">my main goal in that challenge was to overcome that feeling of fear when you want to start something. Don’t think about it, just do it. This is was what that challenge has taught me!
 
 So I sat down almost every day and coded some of these little projects…</string>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
@@ -476,7 +476,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5F3-Se-3Nm">
                                 <rect key="frame" x="24" y="136" width="327" height="229.5"/>
-                                <string key="text">The second project was a little local weather app. Nothing special. Check the location of the user, make a request to the API, read out some weather infos from the JSON, display it to the user and voilá, you’ve got a weather app!</string>
+                                <string key="text">The second project was a little local weather app. Nothing special. Check the location of the user, make a request to the API, read out some weather info from the JSON, display it to the user and voilá, you’ve got a weather app!</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -547,7 +547,7 @@ So I sat down almost every day and coded some of these little projects…</strin
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1d-RQ-7cu">
                                         <rect key="frame" x="8" y="16" width="359" height="139.5"/>
-                                        <string key="text">The next little challenge, to get more comfortable with APIs and JSON was a little wiki viewer. I’ve used the official wikipedia API and had a simple prototype really fast. So I coul focus a bit more on the design part. Check out the result!</string>
+                                        <string key="text">The next little challenge, to get more comfortable with APIs and JSON was a little wiki viewer. I’ve used the official Wikipedia API and had a simple prototype really fast. So I could focus a bit more on the design part. Check out the result!</string>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -707,9 +707,9 @@ So I sat down almost every day and coded some of these little projects…</strin
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ph-rs-hwc">
                                         <rect key="frame" x="7.5" y="8" width="171.5" height="287"/>
-                                        <string key="text">With the help of some simple tutorials I started the journey and worked myself through the ‚learnyounode‘ and ‚expressworks‘ programs. It was quite intereseting and I’ve definetly learned a lot! 
+                                        <string key="text">With the help of some simple tutorials, I started the journey and worked myself through the ‚learnyounode‘ and ‚expressworks‘ programs. It was quite interesting and I’ve definitely learned a lot! 
 
-But there was one more topic in the pack of my head, so I ended the webdevelopment projects here… and moved to…</string>
+But there was one more topic in the pack of my head, so I ended the web development projects here… and moved to…</string>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -736,6 +736,9 @@ But there was one more topic in the pack of my head, so I ended the webdevelopme
                                         <state key="normal" title="iOS">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="ICd-a9-5gn" kind="show" id="kFi-6M-ISm"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(check it out)" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H05-Zi-Ifj">
                                         <rect key="frame" x="8" y="181.5" width="359" height="33"/>
@@ -2349,4 +2352,7 @@ With this simple timer, I was diving in the world of notifications and the new l
         <image name="twitter" width="512" height="512"/>
         <image name="wiki" width="2338" height="1208"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="kFi-6M-ISm"/>
+    </inferredMetricsTieBreakers>
 </document>
